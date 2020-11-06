@@ -16,6 +16,14 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/browser/Console/1.html",
+      "relativePath": "browser/Console/1.md",
+      "key": "v-0133d579",
+      "path": "/browser/Console/1.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -44,12 +52,68 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "ES62",
+      "frontmatter": {},
+      "regularPath": "/browser/Console/2.html",
+      "relativePath": "browser/Console/2.md",
+      "key": "v-3c39bed9",
+      "path": "/browser/Console/2.html"
+    },
+    {
+      "title": "jsbase 1",
+      "frontmatter": {},
+      "regularPath": "/browser/Http/2.html",
+      "relativePath": "browser/Http/2.md",
+      "key": "v-7896620a",
+      "path": "/browser/Http/2.html"
+    },
+    {
+      "title": "jsbase 2",
+      "frontmatter": {},
+      "regularPath": "/browser/Http/1.html",
+      "relativePath": "browser/Http/1.md",
+      "key": "v-74033106",
+      "path": "/browser/Http/1.html"
+    },
+    {
+      "title": "text2.md",
+      "frontmatter": {},
+      "regularPath": "/browser/Interview/2.html",
+      "relativePath": "browser/Interview/2.md",
+      "key": "v-38255899",
+      "path": "/browser/Interview/2.html"
+    },
+    {
+      "title": "text1.md",
+      "frontmatter": {},
+      "regularPath": "/browser/Interview/1.html",
+      "relativePath": "browser/Interview/1.md",
+      "key": "v-0d209b79",
+      "path": "/browser/Interview/1.html"
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/browser/",
+      "relativePath": "browser/README.md",
+      "key": "v-41963e03",
+      "path": "/browser/"
+    },
+    {
       "title": "text1.md",
       "frontmatter": {},
       "regularPath": "/css/Css/text1.html",
       "relativePath": "css/Css/text1.md",
       "key": "v-c7dcfc8e",
       "path": "/css/Css/text1.html"
+    },
+    {
+      "title": "手写函数(简单)",
+      "frontmatter": {},
+      "regularPath": "/browser/SourceCode/1.html",
+      "relativePath": "browser/SourceCode/1.md",
+      "key": "v-36540fbd",
+      "path": "/browser/SourceCode/1.html"
     },
     {
       "title": "text2.md",
@@ -60,19 +124,19 @@ export const siteData = {
       "path": "/css/Css/text2.html"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-2253204d",
-      "path": "/css/"
-    },
-    {
       "title": "text1.md",
       "frontmatter": {},
       "regularPath": "/html/Html/text1.html",
       "relativePath": "html/Html/text1.md",
       "key": "v-26c8059a",
       "path": "/html/Html/text1.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-2253204d",
+      "path": "/css/"
     },
     {
       "title": "text2.md",
@@ -83,14 +147,6 @@ export const siteData = {
       "path": "/html/Html/text2.html"
     },
     {
-      "title": "text1.md",
-      "frontmatter": {},
-      "regularPath": "/html/Interview/text1.html",
-      "relativePath": "html/Interview/text1.md",
-      "key": "v-a83da016",
-      "path": "/html/Interview/text1.html"
-    },
-    {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/html/Interview/text2.html",
@@ -99,68 +155,20 @@ export const siteData = {
       "path": "/html/Interview/text2.html"
     },
     {
+      "title": "text1.md",
+      "frontmatter": {},
+      "regularPath": "/html/Interview/text1.html",
+      "relativePath": "html/Interview/text1.md",
+      "key": "v-a83da016",
+      "path": "/html/Interview/text1.html"
+    },
+    {
       "title": "思维导图",
       "frontmatter": {},
       "regularPath": "/html/",
       "relativePath": "html/README.md",
       "key": "v-5c8131ea",
       "path": "/html/"
-    },
-    {
-      "title": "ES61",
-      "frontmatter": {},
-      "regularPath": "/js%20-%20%E5%89%AF%E6%9C%AC/ES6/ES61.html",
-      "relativePath": "js - 副本/ES6/ES61.md",
-      "key": "v-543a40b3",
-      "path": "/js%20-%20%E5%89%AF%E6%9C%AC/ES6/ES61.html"
-    },
-    {
-      "title": "ES62",
-      "frontmatter": {},
-      "regularPath": "/js%20-%20%E5%89%AF%E6%9C%AC/ES6/ES62.html",
-      "relativePath": "js - 副本/ES6/ES62.md",
-      "key": "v-0f66a6f1",
-      "path": "/js%20-%20%E5%89%AF%E6%9C%AC/ES6/ES62.html"
-    },
-    {
-      "title": "手写函数(简单)",
-      "frontmatter": {},
-      "regularPath": "/js%20-%20%E5%89%AF%E6%9C%AC/Function/text1.html",
-      "relativePath": "js - 副本/Function/text1.md",
-      "key": "v-6b6c8cf3",
-      "path": "/js%20-%20%E5%89%AF%E6%9C%AC/Function/text1.html"
-    },
-    {
-      "title": "手写函数(复杂)",
-      "frontmatter": {},
-      "regularPath": "/js%20-%20%E5%89%AF%E6%9C%AC/Function/text2.html",
-      "relativePath": "js - 副本/Function/text2.md",
-      "key": "v-ca0c001e",
-      "path": "/js%20-%20%E5%89%AF%E6%9C%AC/Function/text2.html"
-    },
-    {
-      "title": "jsbase 2",
-      "frontmatter": {},
-      "regularPath": "/js%20-%20%E5%89%AF%E6%9C%AC/JS/jsBase1.html",
-      "relativePath": "js - 副本/JS/jsBase1.md",
-      "key": "v-5cd8d66b",
-      "path": "/js%20-%20%E5%89%AF%E6%9C%AC/JS/jsBase1.html"
-    },
-    {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/js%20-%20%E5%89%AF%E6%9C%AC/JS/jsBase2.html",
-      "relativePath": "js - 副本/JS/jsBase2.md",
-      "key": "v-cf4f5e2e",
-      "path": "/js%20-%20%E5%89%AF%E6%9C%AC/JS/jsBase2.html"
-    },
-    {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/js%20-%20%E5%89%AF%E6%9C%AC/",
-      "relativePath": "js - 副本/README.md",
-      "key": "v-3bf37a87",
-      "path": "/js%20-%20%E5%89%AF%E6%9C%AC/"
     },
     {
       "title": "ES61",
@@ -203,6 +211,14 @@ export const siteData = {
       "path": "/js/JS/jsBase1.html"
     },
     {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/js/",
+      "relativePath": "js/README.md",
+      "key": "v-5d179fea",
+      "path": "/js/"
+    },
+    {
       "title": "jsbase 1",
       "frontmatter": {},
       "regularPath": "/js/JS/jsBase2.html",
@@ -211,26 +227,90 @@ export const siteData = {
       "path": "/js/JS/jsBase2.html"
     },
     {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/vue/ES6/1.html",
+      "relativePath": "vue/ES6/1.md",
+      "key": "v-3bc1fece",
+      "path": "/vue/ES6/1.html"
+    },
+    {
+      "title": "ES62",
+      "frontmatter": {},
+      "regularPath": "/vue/ES6/2.html",
+      "relativePath": "vue/ES6/2.md",
+      "key": "v-9d038a0e",
+      "path": "/vue/ES6/2.html"
+    },
+    {
+      "title": "text1.md",
+      "frontmatter": {},
+      "regularPath": "/vue/Interview/1.html",
+      "relativePath": "vue/Interview/1.md",
+      "key": "v-340d0239",
+      "path": "/vue/Interview/1.html"
+    },
+    {
+      "title": "text2.md",
+      "frontmatter": {},
+      "regularPath": "/vue/Interview/2.html",
+      "relativePath": "vue/Interview/2.md",
+      "key": "v-8c1bb04e",
+      "path": "/vue/Interview/2.html"
+    },
+    {
+      "title": "手写函数(简单)",
+      "frontmatter": {},
+      "regularPath": "/vue/SourceCode/1.html",
+      "relativePath": "vue/SourceCode/1.md",
+      "key": "v-181434f9",
+      "path": "/vue/SourceCode/1.html"
+    },
+    {
       "title": "思维导图",
       "frontmatter": {},
-      "regularPath": "/js/",
-      "relativePath": "js/README.md",
-      "key": "v-5d179fea",
-      "path": "/js/"
+      "regularPath": "/vue/",
+      "relativePath": "vue/README.md",
+      "key": "v-04892b47",
+      "path": "/vue/"
+    },
+    {
+      "title": "jsbase 1",
+      "frontmatter": {},
+      "regularPath": "/vue/vue/2.html",
+      "relativePath": "vue/vue/2.md",
+      "key": "v-cf5de38e",
+      "path": "/vue/vue/2.html"
+    },
+    {
+      "title": "jsbase 2",
+      "frontmatter": {},
+      "regularPath": "/vue/vue/1.html",
+      "relativePath": "vue/vue/1.md",
+      "key": "v-6e1c584e",
+      "path": "/vue/vue/1.html"
+    },
+    {
+      "title": "手写函数(简单)",
+      "frontmatter": {},
+      "regularPath": "/vue/vue3/1.html",
+      "relativePath": "vue/vue3/1.md",
+      "key": "v-74d4a82f",
+      "path": "/vue/vue3/1.html"
     }
   ],
   "themeConfig": {
     "nav": [
       {
-        "text": "html",
+        "text": "HTML",
         "link": "/html/"
       },
       {
-        "text": "css",
+        "text": "CSS",
         "link": "/css/"
       },
       {
-        "text": "js",
+        "text": "JS",
         "link": "/js/"
       }
     ],
@@ -345,45 +425,91 @@ export const siteData = {
         ]
       },
       {
-        "path": "/js/",
+        "path": "/vue/",
         "title": "Vue",
         "children": [
           {
-            "title": "js基础",
+            "title": "vue基础",
             "children": [
               {
-                "path": "/js/JS/jsBase1",
-                "title": "js基础(1)"
+                "path": "/vue/vue/1",
+                "title": "vue基础(1)"
               },
               {
-                "path": "/js/JS/jsBase2",
-                "title": "js基础(2)"
+                "path": "/vue/vue/2",
+                "title": "vue基础(2)"
               }
             ]
           },
           {
-            "title": "ES6",
+            "title": "面试",
             "children": [
               {
-                "path": "/js/ES6/ES61",
-                "title": "ES6(1)"
+                "path": "/vue/Interview/1",
+                "title": "简单"
               },
               {
-                "path": "/js/ES6/ES62",
-                "title": "ES6(2)"
+                "path": "/vue/Interview/2",
+                "title": "详细"
               }
             ]
           },
           {
-            "title": "手写函数",
+            "title": "源码分析",
             "children": [
               {
-                "path": "/js/Function/text1",
-                "title": "手写函数(简单)"
+                "path": "/vue/SourceCode/1",
+                "title": "源码分析(1)"
+              }
+            ]
+          },
+          {
+            "title": "VUE3.0",
+            "children": [
+              {
+                "path": "/vue/vue3/1",
+                "title": "VUE3.0(1)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/browser/",
+        "title": "浏览器",
+        "children": [
+          {
+            "title": "Http",
+            "children": [
+              {
+                "path": "/browser/Http/1",
+                "title": "Http基础(1)"
               },
               {
-                "path": "/js/Function/text2",
-                "title": "手写函数(复杂)"
+                "path": "/browser/Http/2",
+                "title": "Http基础(2)"
+              }
+            ]
+          },
+          {
+            "title": "面试",
+            "children": [
+              {
+                "path": "/browser/Interview/1",
+                "title": "简单"
+              },
+              {
+                "path": "/browser/Interview/2",
+                "title": "详细"
+              }
+            ]
+          },
+          {
+            "title": "浏览器调试",
+            "children": [
+              {
+                "path": "/browser/Console/1",
+                "title": "浏览器调试(1)"
               }
             ]
           }
