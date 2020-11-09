@@ -245,6 +245,74 @@ module.exports = {
 					
 				],
 			},
+			{
+				path: '/ts/',
+				title: 'TypeScript',
+				children: [
+					{
+						title: 'ts基础',
+						children: [
+							{
+								path: '/ts/base/1', 
+								title: 'ts基础(1)',
+							},
+							{
+								path: '/ts/base/2', 
+								title: 'ts基础(2)',
+							},
+						],
+					},
+					{
+						title: '面试',
+						children: [
+							{
+								path: '/ts/Interview/1',
+								title: '简单',
+							},
+							{
+								path: '/ts/Interview/2',
+								title: '详细',
+							},
+
+						],
+					}
+					
+				],
+			},
+			{
+				path: '/node/',
+				title: 'Node',
+				children: [
+					{
+						title: 'node基础',
+						children: [
+							{
+								path: '/node/base/1', 
+								title: 'node基础(1)',
+							},
+							{
+								path: '/node/base/2', 
+								title: 'node基础(2)',
+							},
+						],
+					},
+					{
+						title: '面试',
+						children: [
+							{
+								path: '/node/Interview/1',
+								title: '简单',
+							},
+							{
+								path: '/node/Interview/2',
+								title: '详细',
+							},
+
+						],
+					}
+					
+				],
+			},
 			
 		],
 		sidebarDepth: 4,
