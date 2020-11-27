@@ -62,18 +62,18 @@ module.exports = {
            
 			{
 				path: '/html/',
-				title: 'HTML',
+				title: '1. HTML',
 				children: [
 					{
-						title: 'html基础',
+						title: '基础',
 						children: [
 							{
 								path: '/html/Html/1', // 以docs为根目录来查找文件
-								title: 'html基础(1)',
+								title: '基础1',
 							},
 							{
 								path: '/html/Html/2', // 以docs为根目录来查找文件
-								title: 'html基础(2)',
+								title: '基础2',
 							},
 							// 上面地址查找的是：docs>js>JS>test.md 文件
 							// 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
@@ -97,7 +97,7 @@ module.exports = {
 			},
 			{
 				path: '/css/',
-                title: 'CSS',
+                title: '2. CSS',
 				children: [
 					{
                         title: 'css基础',
@@ -132,19 +132,19 @@ module.exports = {
 			// docs文件夹下面的js文件夹 文档中md文件 书写的位置(命名随意)
 			{
 				path: '/js/',
-				title: 'JS',
+				title: '3. JS',
 				children: [
 					// '/js/', // js文件夹的README.md 不是下拉框形式
 					{
-						title: 'js基础',
+						title: '基础',
 						children: [
 							{
-								path: '/js/JS/jsBase1', // 以docs为根目录来查找文件
-								title: 'js基础(1)',
+								path: '/js/JS/1', // 以docs为根目录来查找文件
+								title: '基础1',
 							},
 							{
-								path: '/js/JS/jsBase2', // 以docs为根目录来查找文件
-								title: 'js基础(2)',
+								path: '/js/JS/2', // 以docs为根目录来查找文件
+								title: '基础2',
 							},
 							// 上面地址查找的是：docs>js>JS>test.md 文件
 							// 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
@@ -184,7 +184,7 @@ module.exports = {
 			},
 			{
 				path: '/vue/',
-				title: 'Vue',
+				title: '4. Vue',
 				children: [
 					{
 						title: 'vue基础',
@@ -245,61 +245,21 @@ module.exports = {
 					},
 				],
 			},
-			{
-				path: '/browser/',
-				title: '浏览器',
-				children: [
-					{
-						title: 'Http',
-						children: [
-							{
-								path: '/browser/Http/1',
-								title: 'Http基础(1)',
-							},
-							{
-								path: '/browser/Http/2',
-								title: 'Http基础(2)',
-							},
-						],
-					},
-					{
-						title: '面试',
-						children: [
-							{
-								path: '/browser/Interview/1',
-								title: '简单',
-							},
-							{
-								path: '/browser/Interview/2',
-								title: '详细',
-							},
-						],
-					},
-					{
-						title: '浏览器调试',
-						children: [
-							{
-								path: '/browser/Console/1',
-								title: '浏览器调试(1)',
-							},
-						],
-					},
-				],
-			},
+			
 			{
 				path: '/ts/',
-				title: 'TypeScript',
+				title: '5. TS',
 				children: [
 					{
-						title: 'ts基础',
+						title: '基础',
 						children: [
 							{
 								path: '/ts/base/1',
-								title: 'ts基础(1)',
+								title: '基础1',
 							},
 							{
 								path: '/ts/base/2',
-								title: 'ts基础(2)',
+								title: '基础2',
 							},
 						],
 					},
@@ -320,7 +280,7 @@ module.exports = {
 			},
 			{
 				path: '/node/',
-				title: 'Node',
+				title: '6. Node',
 				children: [
 					{
 						title: 'node基础',
@@ -352,14 +312,14 @@ module.exports = {
             },
             {
 				path: '/business/',
-				title: '业务',
+				title: '7. 业务',
 				children: [
 					{
 						title: '普通业务',
 						children: [
 							{
 								path: '/business/business/1', // 以docs为根目录来查找文件
-								title: 'vue 实现调用浏览器打印的功能',
+								title: 'js 实现调用浏览器打印的功能',
 							},
 							{
 								path: '/business/business/2', // 以docs为根目录来查找文件
@@ -387,29 +347,79 @@ module.exports = {
             },
             {
 				path: '/tools/',
-				title: '工具',
+				title: '8. 工具',
 				children: [
 					{
 						title: 'vscode',
 						children: [
 							{
-								path: '/tools/tools/1', // 以docs为根目录来查找文件
+								path: '/tools/vscode/1', // 以docs为根目录来查找文件
 								title: 'vscode常用功能',
 							},
 							{
-								path: '/tools/tools/2', // 以docs为根目录来查找文件
+								path: '/tools/vscode/2', // 以docs为根目录来查找文件
 								title: 'vscode插件',
 							},
 							// 上面地址查找的是：docs>js>JS>test.md 文件
 							// 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
 						],
 					},
+					{
+						title: 'Git',
+						children: [
+							{
+								path: '/tools/git/1', // 以docs为根目录来查找文件
+								title: '常用操作',
+							}
+						],
+					},
 					
 				],
             },
             {
+				path: '/browser/',
+				title: '9. 浏览器',
+				children: [
+					{
+						title: 'Http',
+						children: [
+							{
+								path: '/browser/Http/1',
+								title: '基础1',
+							},
+							{
+								path: '/browser/Http/2',
+								title: '基础2',
+							},
+						],
+					},
+					{
+						title: '面试',
+						children: [
+							{
+								path: '/browser/Interview/1',
+								title: '简单',
+							},
+							{
+								path: '/browser/Interview/2',
+								title: '详细',
+							},
+						],
+					},
+					{
+						title: '浏览器调试',
+						children: [
+							{
+								path: '/browser/Console/1',
+								title: '浏览器调试(1)',
+							},
+						],
+					},
+				],
+			},
+            {
 				path: '/vuePress/',
-				title: 'vuePress',
+				title: '10. vuePress',
 				children: [
 					{
                         title: 'vuePress坑',

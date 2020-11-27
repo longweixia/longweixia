@@ -36,14 +36,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "ES61",
-      "frontmatter": {},
-      "regularPath": "/browser/Console/1.html",
-      "relativePath": "browser/Console/1.md",
-      "key": "v-0133d579",
-      "path": "/browser/Console/1.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -64,12 +56,28 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/browser/Console/1.html",
+      "relativePath": "browser/Console/1.md",
+      "key": "v-0133d579",
+      "path": "/browser/Console/1.html"
+    },
+    {
       "title": "ES62",
       "frontmatter": {},
       "regularPath": "/browser/Console/2.html",
       "relativePath": "browser/Console/2.md",
       "key": "v-3c39bed9",
       "path": "/browser/Console/2.html"
+    },
+    {
+      "title": "jsbase 2",
+      "frontmatter": {},
+      "regularPath": "/browser/Http/1.html",
+      "relativePath": "browser/Http/1.md",
+      "key": "v-74033106",
+      "path": "/browser/Http/1.html"
     },
     {
       "title": "jsbase 1",
@@ -94,14 +102,6 @@ export const siteData = {
       "relativePath": "browser/Interview/2.md",
       "key": "v-38255899",
       "path": "/browser/Interview/2.html"
-    },
-    {
-      "title": "jsbase 2",
-      "frontmatter": {},
-      "regularPath": "/browser/Http/1.html",
-      "relativePath": "browser/Http/1.md",
-      "key": "v-74033106",
-      "path": "/browser/Http/1.html"
     },
     {
       "title": "思维导图",
@@ -135,6 +135,7 @@ export const siteData = {
       ]
     },
     {
+      "title": "一.不使用插件",
       "frontmatter": {},
       "regularPath": "/business/business/1.html",
       "relativePath": "business/business/1.md",
@@ -142,321 +143,34 @@ export const siteData = {
       "path": "/business/business/1.html",
       "headers": [
         {
-          "level": 3,
-          "title": "vue怎么 实现调用浏览器打印的功能",
-          "slug": "vue怎么-实现调用浏览器打印的功能"
+          "level": 2,
+          "title": "一.不使用插件",
+          "slug": "一-不使用插件"
         },
         {
-          "level": 3,
-          "title": "1.不使用插件",
-          "slug": "_1-不使用插件"
-        },
-        {
-          "level": 3,
-          "title": "2.使用插件",
-          "slug": "_2-使用插件"
+          "level": 2,
+          "title": "二.使用插件",
+          "slug": "二-使用插件"
         },
         {
           "level": 3,
-          "title": "3 .解决办法",
-          "slug": "_3-解决办法"
-        }
-      ]
-    },
-    {
-      "title": "以下内容为HTML 基础篇（1）",
-      "frontmatter": {},
-      "regularPath": "/business/business/2.html",
-      "relativePath": "business/business/2.md",
-      "key": "v-1019a11a",
-      "path": "/business/business/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. html5新增特性？",
-          "slug": "_1-html5新增特性"
+          "title": "1. 使用前准备",
+          "slug": "_1-使用前准备"
         },
         {
           "level": 2,
-          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
-          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
-        },
-        {
-          "level": 2,
-          "title": "3.标签上title属性与alt属性的区别是什么",
-          "slug": "_3-标签上title属性与alt属性的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "4. 语义化标签",
-          "slug": "_4-语义化标签"
-        },
-        {
-          "level": 2,
-          "title": "5. iframe有哪些优缺点",
-          "slug": "_5-iframe有哪些优缺点"
-        },
-        {
-          "level": 2,
-          "title": "6. src与href有什么区别",
-          "slug": "_6-src与href有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "7. property和attribute的区别是什么",
-          "slug": "_7-property和attribute的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
-          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
-        },
-        {
-          "level": 2,
-          "title": "9. 常见的浏览器内核有哪些",
-          "slug": "_9-常见的浏览器内核有哪些"
-        },
-        {
-          "level": 2,
-          "title": "10.  Canvas",
-          "slug": "_10-canvas"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/css/Css/1.html",
-      "relativePath": "css/Css/1.md",
-      "key": "v-40b0a999",
-      "path": "/css/Css/1.html"
-    },
-    {
-      "title": "以下内容为css 基础篇（1）",
-      "frontmatter": {},
-      "regularPath": "/css/Css/2.html",
-      "relativePath": "css/Css/2.md",
-      "key": "v-100fe3f9",
-      "path": "/css/Css/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 如何解决 a 标点击后 hover 事件失效的问题？",
-          "slug": "_1-如何解决-a-标点击后-hover-事件失效的问题"
-        },
-        {
-          "level": 2,
-          "title": "2. 响应式布局",
-          "slug": "_2-响应式布局"
-        },
-        {
-          "level": 2,
-          "title": "3. Flex布局",
-          "slug": "_3-flex布局"
+          "title": "三.打印问题",
+          "slug": "三-打印问题"
         },
         {
           "level": 3,
-          "title": "3-1 Flex中的四大概念",
-          "slug": "_3-1-flex中的四大概念"
-        },
-        {
-          "level": 3,
-          "title": "3-2 容器的属性",
-          "slug": "_3-2-容器的属性"
-        },
-        {
-          "level": 3,
-          "title": "3-3项目属性",
-          "slug": "_3-3项目属性"
+          "title": "1. 需要给分页的每一页加表头和表尾",
+          "slug": "_1-需要给分页的每一页加表头和表尾"
         },
         {
           "level": 2,
-          "title": "4.使元素消失的方法",
-          "slug": "_4-使元素消失的方法"
-        },
-        {
-          "level": 2,
-          "title": "5. css盒模型",
-          "slug": "_5-css盒模型"
-        },
-        {
-          "level": 2,
-          "title": "6. 选择器怎么解析的",
-          "slug": "_6-选择器怎么解析的"
-        },
-        {
-          "level": 2,
-          "title": "7. 选择器",
-          "slug": "_7-选择器"
-        },
-        {
-          "level": 3,
-          "title": "7-1 选择器分类",
-          "slug": "_7-1-选择器分类"
-        },
-        {
-          "level": 3,
-          "title": "7-2 选择器优先级",
-          "slug": "_7-2-选择器优先级"
-        },
-        {
-          "level": 3,
-          "title": "7-3 css3新增的伪类",
-          "slug": "_7-3-css3新增的伪类"
-        },
-        {
-          "level": 3,
-          "title": "7-4 选择器如何工作的",
-          "slug": "_7-4-选择器如何工作的"
-        },
-        {
-          "level": 2,
-          "title": "8. 伪类和伪元素的区别",
-          "slug": "_8-伪类和伪元素的区别"
-        },
-        {
-          "level": 2,
-          "title": "9. BFC",
-          "slug": "_9-bfc"
-        },
-        {
-          "level": 3,
-          "title": "9-1 当一个元素形成 BFC 后:",
-          "slug": "_9-1-当一个元素形成-bfc-后"
-        },
-        {
-          "level": 3,
-          "title": "9-2 如何形成BFC",
-          "slug": "_9-2-如何形成bfc"
-        },
-        {
-          "level": 3,
-          "title": "9-3 BFC的原理/BFC的布局规则",
-          "slug": "_9-3-bfc的原理-bfc的布局规则"
-        },
-        {
-          "level": 3,
-          "title": "9-4 BFC的应用",
-          "slug": "_9-4-bfc的应用"
-        },
-        {
-          "level": 2,
-          "title": "10. 定位",
-          "slug": "_10-定位"
-        },
-        {
-          "level": 3,
-          "title": "10-1 基本含义",
-          "slug": "_10-1-基本含义"
-        },
-        {
-          "level": 3,
-          "title": "10-2 水平居中",
-          "slug": "_10-2-水平居中"
-        },
-        {
-          "level": 3,
-          "title": "10-3 垂直居中",
-          "slug": "_10-3-垂直居中"
-        },
-        {
-          "level": 3,
-          "title": "10-4 水平垂直居中",
-          "slug": "_10-4-水平垂直居中"
-        },
-        {
-          "level": 3,
-          "title": "10-4 浮动",
-          "slug": "_10-4-浮动"
-        },
-        {
-          "level": 2,
-          "title": "11. 布局",
-          "slug": "_11-布局"
-        },
-        {
-          "level": 3,
-          "title": "11-1 两侧定宽，中间自适应",
-          "slug": "_11-1-两侧定宽-中间自适应"
-        },
-        {
-          "level": 2,
-          "title": "12. margin重叠",
-          "slug": "_12-margin重叠"
-        },
-        {
-          "level": 3,
-          "title": "margin重叠的规则",
-          "slug": "margin重叠的规则"
-        },
-        {
-          "level": 3,
-          "title": "margin重叠主要有四种情况的解决：",
-          "slug": "margin重叠主要有四种情况的解决"
-        },
-        {
-          "level": 2,
-          "title": "13. 用 css 画三角形",
-          "slug": "_13-用-css-画三角形"
-        },
-        {
-          "level": 2,
-          "title": "14. 实现单行和多行文本溢出添加省略号",
-          "slug": "_14-实现单行和多行文本溢出添加省略号"
-        },
-        {
-          "level": 2,
-          "title": "15. 常见单位",
-          "slug": "_15-常见单位"
-        },
-        {
-          "level": 2,
-          "title": "16. CSS有哪些属性可以继承？",
-          "slug": "_16-css有哪些属性可以继承"
-        },
-        {
-          "level": 2,
-          "title": "17. CSS3有哪些新特性？",
-          "slug": "_17-css3有哪些新特性"
-        },
-        {
-          "level": 2,
-          "title": "18. 为什么要初始化CSS样式？",
-          "slug": "_18-为什么要初始化css样式"
-        },
-        {
-          "level": 2,
-          "title": "19.CSS优化、提高性能的方法有哪些？",
-          "slug": "_19-css优化、提高性能的方法有哪些"
-        },
-        {
-          "level": 2,
-          "title": "20. 什么是回流（重排）和重绘以及其区别？",
-          "slug": "_20-什么是回流-重排-和重绘以及其区别"
-        },
-        {
-          "level": 2,
-          "title": "21.94. border:none;与border:0;有什么区别？",
-          "slug": "_21-94-border-none-与border-0-有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "21. BFC、IFC、GFC、FFC是什么？",
-          "slug": "_21-bfc、ifc、gfc、ffc是什么"
-        },
-        {
-          "level": 2,
-          "title": "22. CSS属性overflow属性定义溢出元素内容区的内容会如何处理?",
-          "slug": "_22-css属性overflow属性定义溢出元素内容区的内容会如何处理"
-        },
-        {
-          "level": 2,
-          "title": "23. style标签写在body后与body前有什么区别？",
-          "slug": "_23-style标签写在body后与body前有什么区别"
-        },
-        {
-          "level": 2,
-          "title": "24. 元素竖向的百分比设定是相对于容器的高度吗？",
-          "slug": "_24-元素竖向的百分比设定是相对于容器的高度吗"
+          "title": "四. 完整代码",
+          "slug": "四-完整代码"
         }
       ]
     },
@@ -691,12 +405,307 @@ export const siteData = {
       ]
     },
     {
+      "title": "以下内容为HTML 基础篇（1）",
+      "frontmatter": {},
+      "regularPath": "/business/business/2.html",
+      "relativePath": "business/business/2.md",
+      "key": "v-1019a11a",
+      "path": "/business/business/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. html5新增特性？",
+          "slug": "_1-html5新增特性"
+        },
+        {
+          "level": 2,
+          "title": "2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？",
+          "slug": "_2-行内元素有哪些-块级元素有哪些-空-void-元素有那些"
+        },
+        {
+          "level": 2,
+          "title": "3.标签上title属性与alt属性的区别是什么",
+          "slug": "_3-标签上title属性与alt属性的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "4. 语义化标签",
+          "slug": "_4-语义化标签"
+        },
+        {
+          "level": 2,
+          "title": "5. iframe有哪些优缺点",
+          "slug": "_5-iframe有哪些优缺点"
+        },
+        {
+          "level": 2,
+          "title": "6. src与href有什么区别",
+          "slug": "_6-src与href有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "7. property和attribute的区别是什么",
+          "slug": "_7-property和attribute的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "8. HTML5的Web storage的存储方式有两种：sessionStorage和localStorage。",
+          "slug": "_8-html5的web-storage的存储方式有两种-sessionstorage和localstorage。"
+        },
+        {
+          "level": 2,
+          "title": "9. 常见的浏览器内核有哪些",
+          "slug": "_9-常见的浏览器内核有哪些"
+        },
+        {
+          "level": 2,
+          "title": "10.  Canvas",
+          "slug": "_10-canvas"
+        }
+      ]
+    },
+    {
       "title": "text1.md",
       "frontmatter": {},
       "regularPath": "/css/Interview/1.html",
       "relativePath": "css/Interview/1.md",
       "key": "v-e5b49d4e",
       "path": "/css/Interview/1.html"
+    },
+    {
+      "title": "以下内容为css 基础篇（1）",
+      "frontmatter": {},
+      "regularPath": "/css/Css/2.html",
+      "relativePath": "css/Css/2.md",
+      "key": "v-100fe3f9",
+      "path": "/css/Css/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 如何解决 a 标点击后 hover 事件失效的问题？",
+          "slug": "_1-如何解决-a-标点击后-hover-事件失效的问题"
+        },
+        {
+          "level": 2,
+          "title": "2. 响应式布局",
+          "slug": "_2-响应式布局"
+        },
+        {
+          "level": 2,
+          "title": "3. Flex布局",
+          "slug": "_3-flex布局"
+        },
+        {
+          "level": 3,
+          "title": "3-1 Flex中的四大概念",
+          "slug": "_3-1-flex中的四大概念"
+        },
+        {
+          "level": 3,
+          "title": "3-2 容器的属性",
+          "slug": "_3-2-容器的属性"
+        },
+        {
+          "level": 3,
+          "title": "3-3项目属性",
+          "slug": "_3-3项目属性"
+        },
+        {
+          "level": 2,
+          "title": "4.使元素消失的方法",
+          "slug": "_4-使元素消失的方法"
+        },
+        {
+          "level": 2,
+          "title": "5. css盒模型",
+          "slug": "_5-css盒模型"
+        },
+        {
+          "level": 2,
+          "title": "6. 选择器怎么解析的",
+          "slug": "_6-选择器怎么解析的"
+        },
+        {
+          "level": 2,
+          "title": "7. 选择器",
+          "slug": "_7-选择器"
+        },
+        {
+          "level": 3,
+          "title": "7-1 选择器分类",
+          "slug": "_7-1-选择器分类"
+        },
+        {
+          "level": 3,
+          "title": "7-2 选择器优先级",
+          "slug": "_7-2-选择器优先级"
+        },
+        {
+          "level": 3,
+          "title": "7-3 css3新增的伪类",
+          "slug": "_7-3-css3新增的伪类"
+        },
+        {
+          "level": 3,
+          "title": "7-4 选择器如何工作的",
+          "slug": "_7-4-选择器如何工作的"
+        },
+        {
+          "level": 2,
+          "title": "8. 伪类和伪元素的区别",
+          "slug": "_8-伪类和伪元素的区别"
+        },
+        {
+          "level": 2,
+          "title": "9. BFC",
+          "slug": "_9-bfc"
+        },
+        {
+          "level": 3,
+          "title": "9-1 当一个元素形成 BFC 后:",
+          "slug": "_9-1-当一个元素形成-bfc-后"
+        },
+        {
+          "level": 3,
+          "title": "9-2 如何形成BFC",
+          "slug": "_9-2-如何形成bfc"
+        },
+        {
+          "level": 3,
+          "title": "9-3 BFC的原理/BFC的布局规则",
+          "slug": "_9-3-bfc的原理-bfc的布局规则"
+        },
+        {
+          "level": 3,
+          "title": "9-4 BFC的应用",
+          "slug": "_9-4-bfc的应用"
+        },
+        {
+          "level": 2,
+          "title": "10. 定位",
+          "slug": "_10-定位"
+        },
+        {
+          "level": 3,
+          "title": "10-1 基本含义",
+          "slug": "_10-1-基本含义"
+        },
+        {
+          "level": 3,
+          "title": "10-2 水平居中",
+          "slug": "_10-2-水平居中"
+        },
+        {
+          "level": 3,
+          "title": "10-3 垂直居中",
+          "slug": "_10-3-垂直居中"
+        },
+        {
+          "level": 3,
+          "title": "10-4 水平垂直居中",
+          "slug": "_10-4-水平垂直居中"
+        },
+        {
+          "level": 3,
+          "title": "10-4 浮动",
+          "slug": "_10-4-浮动"
+        },
+        {
+          "level": 2,
+          "title": "11. 布局",
+          "slug": "_11-布局"
+        },
+        {
+          "level": 3,
+          "title": "11-1 两侧定宽，中间自适应",
+          "slug": "_11-1-两侧定宽-中间自适应"
+        },
+        {
+          "level": 2,
+          "title": "12. margin重叠",
+          "slug": "_12-margin重叠"
+        },
+        {
+          "level": 3,
+          "title": "margin重叠的规则",
+          "slug": "margin重叠的规则"
+        },
+        {
+          "level": 3,
+          "title": "margin重叠主要有四种情况的解决：",
+          "slug": "margin重叠主要有四种情况的解决"
+        },
+        {
+          "level": 2,
+          "title": "13. 用 css 画三角形",
+          "slug": "_13-用-css-画三角形"
+        },
+        {
+          "level": 2,
+          "title": "14. 实现单行和多行文本溢出添加省略号",
+          "slug": "_14-实现单行和多行文本溢出添加省略号"
+        },
+        {
+          "level": 2,
+          "title": "15. 常见单位",
+          "slug": "_15-常见单位"
+        },
+        {
+          "level": 2,
+          "title": "16. CSS有哪些属性可以继承？",
+          "slug": "_16-css有哪些属性可以继承"
+        },
+        {
+          "level": 2,
+          "title": "17. CSS3有哪些新特性？",
+          "slug": "_17-css3有哪些新特性"
+        },
+        {
+          "level": 2,
+          "title": "18. 为什么要初始化CSS样式？",
+          "slug": "_18-为什么要初始化css样式"
+        },
+        {
+          "level": 2,
+          "title": "19.CSS优化、提高性能的方法有哪些？",
+          "slug": "_19-css优化、提高性能的方法有哪些"
+        },
+        {
+          "level": 2,
+          "title": "20. 回流（重排）和重绘区别？",
+          "slug": "_20-回流-重排-和重绘区别"
+        },
+        {
+          "level": 2,
+          "title": "21.border:none与border:0的区别？",
+          "slug": "_21-border-none与border-0的区别"
+        },
+        {
+          "level": 2,
+          "title": "21. BFC、IFC、GFC、FFC是什么？",
+          "slug": "_21-bfc、ifc、gfc、ffc是什么"
+        },
+        {
+          "level": 2,
+          "title": "22. CSS属性overflow属性定义溢出元素内容区的内容会如何处理?",
+          "slug": "_22-css属性overflow属性定义溢出元素内容区的内容会如何处理"
+        },
+        {
+          "level": 2,
+          "title": "23. style标签写在body前后的区别？",
+          "slug": "_23-style标签写在body前后的区别"
+        },
+        {
+          "level": 2,
+          "title": "24.垂直百分比是相对于容器高吗？",
+          "slug": "_24-垂直百分比是相对于容器高吗"
+        },
+        {
+          "level": 2,
+          "title": "25.clientHeight、offsetHeight、scrollHeight、offsetTop、scrollTop区别",
+          "slug": "_25-clientheight、offsetheight、scrollheight、offsettop、scrolltop区别"
+        }
+      ]
     },
     {
       "title": "c ss",
@@ -712,6 +721,13 @@ export const siteData = {
           "slug": "c-ss"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/css/Css/1.html",
+      "relativePath": "css/Css/1.md",
+      "key": "v-40b0a999",
+      "path": "/css/Css/1.html"
     },
     {
       "title": "text2.md",
@@ -836,6 +852,56 @@ export const siteData = {
       "path": "/js/ES6/ES62.html"
     },
     {
+      "title": "1. 函数声明",
+      "frontmatter": {},
+      "regularPath": "/js/JS/1.html",
+      "relativePath": "js/JS/1.md",
+      "key": "v-73b646da",
+      "path": "/js/JS/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 函数声明",
+          "slug": "_1-函数声明"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 什么是函数声明",
+          "slug": "_1-1-什么是函数声明"
+        },
+        {
+          "level": 3,
+          "title": "1-2. 函数声明三种方式",
+          "slug": "_1-2-函数声明三种方式"
+        },
+        {
+          "level": 2,
+          "title": "2. 变量声明",
+          "slug": "_2-变量声明"
+        },
+        {
+          "level": 3,
+          "title": "2-1. 什么是变量声明",
+          "slug": "_2-1-什么是变量声明"
+        },
+        {
+          "level": 3,
+          "title": "2-2. 变量声明的方式和区别",
+          "slug": "_2-2-变量声明的方式和区别"
+        },
+        {
+          "level": 2,
+          "title": "3.  数据类型",
+          "slug": "_3-数据类型"
+        },
+        {
+          "level": 3,
+          "title": "3-1.数据类型的分类",
+          "slug": "_3-1-数据类型的分类"
+        }
+      ]
+    },
+    {
       "title": "手写函数(简单)",
       "frontmatter": {},
       "regularPath": "/js/Function/text1.html",
@@ -852,28 +918,20 @@ export const siteData = {
       "path": "/js/Function/text2.html"
     },
     {
+      "title": "jsbase 1",
+      "frontmatter": {},
+      "regularPath": "/js/JS/2.html",
+      "relativePath": "js/JS/2.md",
+      "key": "v-18839333",
+      "path": "/js/JS/2.html"
+    },
+    {
       "title": "思维导图",
       "frontmatter": {},
       "regularPath": "/js/",
       "relativePath": "js/README.md",
       "key": "v-5d179fea",
       "path": "/js/"
-    },
-    {
-      "title": "jsbase 2",
-      "frontmatter": {},
-      "regularPath": "/js/JS/jsBase1.html",
-      "relativePath": "js/JS/jsBase1.md",
-      "key": "v-379b7793",
-      "path": "/js/JS/jsBase1.html"
-    },
-    {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/js/JS/jsBase2.html",
-      "relativePath": "js/JS/jsBase2.md",
-      "key": "v-f8fc2d1a",
-      "path": "/js/JS/jsBase2.html"
     },
     {
       "title": "text1.md",
@@ -931,12 +989,81 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/tools/vscode/1.html",
+      "relativePath": "tools/vscode/1.md",
+      "key": "v-e5766942",
+      "path": "/tools/vscode/1.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue怎么 实现调用浏览器打印的功能",
+          "slug": "vue怎么-实现调用浏览器打印的功能"
+        },
+        {
+          "level": 2,
+          "title": "1. 怎么使用鼠标控制字体大小",
+          "slug": "_1-怎么使用鼠标控制字体大小"
+        },
+        {
+          "level": 2,
+          "title": "2.怎么查看每一行的代码提交记录",
+          "slug": "_2-怎么查看每一行的代码提交记录"
+        }
+      ]
+    },
+    {
+      "title": "一. 更新",
+      "frontmatter": {},
+      "regularPath": "/tools/git/1.html",
+      "relativePath": "tools/git/1.md",
+      "key": "v-2e8b8e39",
+      "path": "/tools/git/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一. 更新",
+          "slug": "一-更新"
+        },
+        {
+          "level": 3,
+          "title": "1. 更新远程分支到本地",
+          "slug": "_1-更新远程分支到本地"
+        },
+        {
+          "level": 3,
+          "title": "2. 将远程某个分支的代码更新到本地",
+          "slug": "_2-将远程某个分支的代码更新到本地"
+        },
+        {
+          "level": 3,
+          "title": "3. 将本地一个分支的代码更新到另外一个分支上",
+          "slug": "_3-将本地一个分支的代码更新到另外一个分支上"
+        },
+        {
+          "level": 2,
+          "title": "二.查看",
+          "slug": "二-查看"
+        },
+        {
+          "level": 3,
+          "title": "1.查看本地分支",
+          "slug": "_1-查看本地分支"
+        },
+        {
+          "level": 3,
+          "title": "2.查看所有分支",
+          "slug": "_2-查看所有分支"
+        }
+      ]
+    },
+    {
       "title": "以下内容为HTML 基础篇（1）",
       "frontmatter": {},
-      "regularPath": "/tools/tools/2.html",
-      "relativePath": "tools/tools/2.md",
-      "key": "v-432dd78e",
-      "path": "/tools/tools/2.html",
+      "regularPath": "/tools/vscode/2.html",
+      "relativePath": "tools/vscode/2.md",
+      "key": "v-ea099a46",
+      "path": "/tools/vscode/2.html",
       "headers": [
         {
           "level": 2,
@@ -991,25 +1118,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/tools/tools/1.html",
-      "relativePath": "tools/tools/1.md",
-      "key": "v-dafabb4e",
-      "path": "/tools/tools/1.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "vue怎么 实现调用浏览器打印的功能",
-          "slug": "vue怎么-实现调用浏览器打印的功能"
-        },
-        {
-          "level": 3,
-          "title": "1. 怎么使用鼠标方大字体",
-          "slug": "_1-怎么使用鼠标方大字体"
-        }
-      ]
-    },
-    {
       "title": "text1.md",
       "frontmatter": {},
       "regularPath": "/ts/Interview/1.html",
@@ -1026,20 +1134,20 @@ export const siteData = {
       "path": "/ts/Interview/2.html"
     },
     {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/ts/",
-      "relativePath": "ts/README.md",
-      "key": "v-bdb1ff6a",
-      "path": "/ts/"
-    },
-    {
       "title": "jsbase 2",
       "frontmatter": {},
       "regularPath": "/ts/base/1.html",
       "relativePath": "ts/base/1.md",
       "key": "v-aec6c55a",
       "path": "/ts/base/1.html"
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/ts/",
+      "relativePath": "ts/README.md",
+      "key": "v-bdb1ff6a",
+      "path": "/ts/"
     },
     {
       "title": "jsbase 1",
@@ -1104,6 +1212,126 @@ export const siteData = {
       "relativePath": "vue/vue/1.md",
       "key": "v-6e1c584e",
       "path": "/vue/vue/1.html"
+    },
+    {
+      "title": "1. 背景",
+      "frontmatter": {},
+      "regularPath": "/vue/vue3/1.html",
+      "relativePath": "vue/vue3/1.md",
+      "key": "v-74d4a82f",
+      "path": "/vue/vue3/1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 背景",
+          "slug": "_1-背景"
+        },
+        {
+          "level": 2,
+          "title": "2.生命周期的变化",
+          "slug": "_2-生命周期的变化"
+        },
+        {
+          "level": 2,
+          "title": "3.使用proxy代替defineProperty",
+          "slug": "_3-使用proxy代替defineproperty"
+        },
+        {
+          "level": 3,
+          "title": "Object.defineProperty()语法",
+          "slug": "object-defineproperty-语法"
+        },
+        {
+          "level": 3,
+          "title": "Proxy的语法",
+          "slug": "proxy的语法"
+        },
+        {
+          "level": 2,
+          "title": "4.Diff算法的提升",
+          "slug": "_4-diff算法的提升"
+        },
+        {
+          "level": 3,
+          "title": "以往的渲染策略",
+          "slug": "以往的渲染策略"
+        },
+        {
+          "level": 3,
+          "title": "潜在的问题",
+          "slug": "潜在的问题"
+        },
+        {
+          "level": 3,
+          "title": "Vue3的突破",
+          "slug": "vue3的突破"
+        },
+        {
+          "level": 2,
+          "title": "5.typeScript的支持",
+          "slug": "_5-typescript的支持"
+        },
+        {
+          "level": 3,
+          "title": "vue2 存在的问题",
+          "slug": "vue2-存在的问题"
+        },
+        {
+          "level": 3,
+          "title": "如何实现",
+          "slug": "如何实现"
+        },
+        {
+          "level": 2,
+          "title": "6.打包体积变化",
+          "slug": "_6-打包体积变化"
+        },
+        {
+          "level": 3,
+          "title": "以前打包存在的问题",
+          "slug": "以前打包存在的问题"
+        },
+        {
+          "level": 3,
+          "title": "vue3是怎么做的",
+          "slug": "vue3是怎么做的"
+        },
+        {
+          "level": 2,
+          "title": "6. 开始使用vue3.0",
+          "slug": "_6-开始使用vue3-0"
+        },
+        {
+          "level": 3,
+          "title": "安装依赖，创建项目",
+          "slug": "安装依赖-创建项目"
+        },
+        {
+          "level": 2,
+          "title": "7. 代码解释",
+          "slug": "_7-代码解释"
+        },
+        {
+          "level": 3,
+          "title": "将vue3的HelloWorld.vue文件做些改动",
+          "slug": "将vue3的helloworld-vue文件做些改动"
+        },
+        {
+          "level": 3,
+          "title": "生命周期的使用",
+          "slug": "生命周期的使用"
+        },
+        {
+          "level": 2,
+          "title": "8. 组件Api的使用",
+          "slug": "_8-组件api的使用"
+        },
+        {
+          "level": 3,
+          "title": "setup",
+          "slug": "setup"
+        }
+      ]
     },
     {
       "title": "jsbase 1",
@@ -1240,6 +1468,14 @@ export const siteData = {
       ]
     },
     {
+      "title": "2",
+      "frontmatter": {},
+      "regularPath": "/vuePress/",
+      "relativePath": "vuePress/README.md",
+      "key": "v-7a73bccb",
+      "path": "/vuePress/"
+    },
+    {
       "title": "1. 直接修改与commit提交mutation修改state的差异",
       "frontmatter": {},
       "regularPath": "/vue/vuex/2.html",
@@ -1330,134 +1566,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "2",
-      "frontmatter": {},
-      "regularPath": "/vuePress/",
-      "relativePath": "vuePress/README.md",
-      "key": "v-7a73bccb",
-      "path": "/vuePress/"
-    },
-    {
-      "title": "1. 背景",
-      "frontmatter": {},
-      "regularPath": "/vue/vue3/1.html",
-      "relativePath": "vue/vue3/1.md",
-      "key": "v-74d4a82f",
-      "path": "/vue/vue3/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 背景",
-          "slug": "_1-背景"
-        },
-        {
-          "level": 2,
-          "title": "2.生命周期的变化",
-          "slug": "_2-生命周期的变化"
-        },
-        {
-          "level": 2,
-          "title": "3.使用proxy代替defineProperty",
-          "slug": "_3-使用proxy代替defineproperty"
-        },
-        {
-          "level": 3,
-          "title": "Object.defineProperty()语法",
-          "slug": "object-defineproperty-语法"
-        },
-        {
-          "level": 3,
-          "title": "Proxy的语法",
-          "slug": "proxy的语法"
-        },
-        {
-          "level": 2,
-          "title": "4.Diff算法的提升",
-          "slug": "_4-diff算法的提升"
-        },
-        {
-          "level": 3,
-          "title": "以往的渲染策略",
-          "slug": "以往的渲染策略"
-        },
-        {
-          "level": 3,
-          "title": "潜在的问题",
-          "slug": "潜在的问题"
-        },
-        {
-          "level": 3,
-          "title": "Vue3的突破",
-          "slug": "vue3的突破"
-        },
-        {
-          "level": 2,
-          "title": "5.typeScript的支持",
-          "slug": "_5-typescript的支持"
-        },
-        {
-          "level": 3,
-          "title": "vue2 存在的问题",
-          "slug": "vue2-存在的问题"
-        },
-        {
-          "level": 3,
-          "title": "如何实现",
-          "slug": "如何实现"
-        },
-        {
-          "level": 2,
-          "title": "6.打包体积变化",
-          "slug": "_6-打包体积变化"
-        },
-        {
-          "level": 3,
-          "title": "以前打包存在的问题",
-          "slug": "以前打包存在的问题"
-        },
-        {
-          "level": 3,
-          "title": "vue3是怎么做的",
-          "slug": "vue3是怎么做的"
-        },
-        {
-          "level": 2,
-          "title": "6. 开始使用vue3.0",
-          "slug": "_6-开始使用vue3-0"
-        },
-        {
-          "level": 3,
-          "title": "安装依赖，创建项目",
-          "slug": "安装依赖-创建项目"
-        },
-        {
-          "level": 2,
-          "title": "7. 代码解释",
-          "slug": "_7-代码解释"
-        },
-        {
-          "level": 3,
-          "title": "将vue3的HelloWorld.vue文件做些改动",
-          "slug": "将vue3的helloworld-vue文件做些改动"
-        },
-        {
-          "level": 3,
-          "title": "生命周期的使用",
-          "slug": "生命周期的使用"
-        },
-        {
-          "level": 2,
-          "title": "8. 组件Api的使用",
-          "slug": "_8-组件api的使用"
-        },
-        {
-          "level": 3,
-          "title": "setup",
-          "slug": "setup"
-        }
-      ]
-    },
-    {
       "title": "使用指南",
       "frontmatter": {},
       "regularPath": "/vuePress/guide.html",
@@ -1526,18 +1634,18 @@ export const siteData = {
     "sidebar": [
       {
         "path": "/html/",
-        "title": "HTML",
+        "title": "1. HTML",
         "children": [
           {
-            "title": "html基础",
+            "title": "基础",
             "children": [
               {
                 "path": "/html/Html/1",
-                "title": "html基础(1)"
+                "title": "基础1"
               },
               {
                 "path": "/html/Html/2",
-                "title": "html基础(2)"
+                "title": "基础2"
               }
             ]
           },
@@ -1559,7 +1667,7 @@ export const siteData = {
       },
       {
         "path": "/css/",
-        "title": "CSS",
+        "title": "2. CSS",
         "children": [
           {
             "title": "css基础",
@@ -1578,18 +1686,18 @@ export const siteData = {
       },
       {
         "path": "/js/",
-        "title": "JS",
+        "title": "3. JS",
         "children": [
           {
-            "title": "js基础",
+            "title": "基础",
             "children": [
               {
-                "path": "/js/JS/jsBase1",
-                "title": "js基础(1)"
+                "path": "/js/JS/1",
+                "title": "基础1"
               },
               {
-                "path": "/js/JS/jsBase2",
-                "title": "js基础(2)"
+                "path": "/js/JS/2",
+                "title": "基础2"
               }
             ]
           },
@@ -1623,7 +1731,7 @@ export const siteData = {
       },
       {
         "path": "/vue/",
-        "title": "Vue",
+        "title": "4. Vue",
         "children": [
           {
             "title": "vue基础",
@@ -1685,60 +1793,19 @@ export const siteData = {
         ]
       },
       {
-        "path": "/browser/",
-        "title": "浏览器",
-        "children": [
-          {
-            "title": "Http",
-            "children": [
-              {
-                "path": "/browser/Http/1",
-                "title": "Http基础(1)"
-              },
-              {
-                "path": "/browser/Http/2",
-                "title": "Http基础(2)"
-              }
-            ]
-          },
-          {
-            "title": "面试",
-            "children": [
-              {
-                "path": "/browser/Interview/1",
-                "title": "简单"
-              },
-              {
-                "path": "/browser/Interview/2",
-                "title": "详细"
-              }
-            ]
-          },
-          {
-            "title": "浏览器调试",
-            "children": [
-              {
-                "path": "/browser/Console/1",
-                "title": "浏览器调试(1)"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "path": "/ts/",
-        "title": "TypeScript",
+        "title": "5. TS",
         "children": [
           {
-            "title": "ts基础",
+            "title": "基础",
             "children": [
               {
                 "path": "/ts/base/1",
-                "title": "ts基础(1)"
+                "title": "基础1"
               },
               {
                 "path": "/ts/base/2",
-                "title": "ts基础(2)"
+                "title": "基础2"
               }
             ]
           },
@@ -1759,7 +1826,7 @@ export const siteData = {
       },
       {
         "path": "/node/",
-        "title": "Node",
+        "title": "6. Node",
         "children": [
           {
             "title": "node基础",
@@ -1791,14 +1858,14 @@ export const siteData = {
       },
       {
         "path": "/business/",
-        "title": "业务",
+        "title": "7. 业务",
         "children": [
           {
             "title": "普通业务",
             "children": [
               {
                 "path": "/business/business/1",
-                "title": "vue 实现调用浏览器打印的功能"
+                "title": "js 实现调用浏览器打印的功能"
               },
               {
                 "path": "/business/business/2",
@@ -1824,18 +1891,68 @@ export const siteData = {
       },
       {
         "path": "/tools/",
-        "title": "工具",
+        "title": "8. 工具",
         "children": [
           {
             "title": "vscode",
             "children": [
               {
-                "path": "/tools/tools/1",
+                "path": "/tools/vscode/1",
                 "title": "vscode常用功能"
               },
               {
-                "path": "/tools/tools/2",
+                "path": "/tools/vscode/2",
                 "title": "vscode插件"
+              }
+            ]
+          },
+          {
+            "title": "Git",
+            "children": [
+              {
+                "path": "/tools/git/1",
+                "title": "常用操作"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/browser/",
+        "title": "9. 浏览器",
+        "children": [
+          {
+            "title": "Http",
+            "children": [
+              {
+                "path": "/browser/Http/1",
+                "title": "基础1"
+              },
+              {
+                "path": "/browser/Http/2",
+                "title": "基础2"
+              }
+            ]
+          },
+          {
+            "title": "面试",
+            "children": [
+              {
+                "path": "/browser/Interview/1",
+                "title": "简单"
+              },
+              {
+                "path": "/browser/Interview/2",
+                "title": "详细"
+              }
+            ]
+          },
+          {
+            "title": "浏览器调试",
+            "children": [
+              {
+                "path": "/browser/Console/1",
+                "title": "浏览器调试(1)"
               }
             ]
           }
@@ -1843,7 +1960,7 @@ export const siteData = {
       },
       {
         "path": "/vuePress/",
-        "title": "vuePress",
+        "title": "10. vuePress",
         "children": [
           {
             "title": "vuePress坑",
