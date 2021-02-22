@@ -1,6 +1,6 @@
 module.exports = {
 	title: '资料库', //标题
-    description: 'Hello, my friend!',
+    description: '10点读书',
     base:"/longweixia/",
 	head: [
     
@@ -180,6 +180,21 @@ module.exports = {
 							// 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
 						],
 					},
+					{
+						title: '正则',
+						children: [
+							{
+								path: '/js/reg/text1', // 以docs为根目录来查找文件
+								title: '正则-1',
+							},
+							{
+								path: '/js/reg/text2', // 以docs为根目录来查找文件
+								title: '手写函数(复杂)',
+							},
+							// 上面地址查找的是：docs>js>JS>test.md 文件
+							// 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
+						],
+					},
 				],
 			},
 			{
@@ -244,7 +259,8 @@ module.exports = {
 						],
 					},
 				],
-			},
+            },
+            
 			
 			{
 				path: '/ts/',
@@ -431,7 +447,71 @@ module.exports = {
 					},
 				
 				],
-			},
+            },
+            {
+				path: '/xcx/',
+				title: '11. 小程序',
+				children: [
+		
+					{
+						title: '兼容性',
+						children: [
+							{
+								path: '/xcx/JS/1', 
+								title: '文章-黑-1',
+							},
+							{
+								path: '/xcx/JS/2', 
+								title: '文章-彩-1',
+							},
+					
+						],
+					},
+					{
+						title: '功能',
+						children: [
+							{
+								path: '/xcx/ES6/ES61',
+								title: '文章-黑-1',
+							},
+							{
+								path: '/xcx/ES6/ES62', 
+								title: '文章-彩-1',
+							},
+				
+						],
+					},
+					{
+						title: '手写函数',
+						children: [
+							{
+								path: '/xcx/Function/text1',
+								title: '手写函数(简单)',
+							},
+							{
+								path: '/xcx/Function/text2', 
+								title: '手写函数(复杂)',
+							},
+							
+						],
+					},
+				],
+            },
+            {
+				path: '/note/',
+				title: '12. 总结',
+				children: [
+					{
+                        title: '总结--2021/02/22',
+                        path: '/note/pit'
+					},
+					{
+                        title: '使用指南',
+                        path: '/note/guide'
+					},
+				
+				],
+            },
         ],
 		sidebarDepth: 4,
 	},
