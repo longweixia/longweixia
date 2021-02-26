@@ -194,6 +194,11 @@ module.exports = {
 							// 上面地址查找的是：docs>js>JS>test.md 文件
 							// 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
 						],
+                    },
+                    {
+                        title: 'ast',
+                        path: '/js/ast',
+					
 					},
 				],
 			},
