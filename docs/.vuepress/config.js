@@ -384,9 +384,38 @@ module.exports = {
 						title: 'Git',
 						children: [
 							{
-								path: '/tools/git/1', // 以docs为根目录来查找文件
+								path: '/tools/git/1',
 								title: '常用操作',
 							}
+						],
+					},
+					{
+						title: 'webpack',
+						children: [
+							{
+								path: '/tools/webpack/1',
+								title: 'webpack 提高构建速度的方式',
+							},
+							{
+								path: '/tools/webpack/2', 
+								title: '什么是loader',
+							},
+							{
+								path: '/tools/webpack/3', 
+								title: 'webpack原理',
+							},
+							{
+								path: '/tools/webpack/4', 
+								title: 'webpack 动态加载的原理',
+							},
+							{
+								path: '/tools/webpack/5', 
+								title: 'webpack 热更新',
+							},
+							{
+								path: '/tools/webpack/6', 
+								title: '如何写一个 webpack plugin 热更新',
+							},
 						],
 					},
 					
