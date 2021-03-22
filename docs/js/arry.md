@@ -46,7 +46,7 @@ ages.every(checkAdult);  //空数组不检查，直接返回true
 
 ### 1-3.filter()
 
-> 返回满足断言函数的数组元素。
+> 返回满足`断言函数`的元素`组成`的`数组`。
 ```
 var ages = [1, 2, 3, 4];
  
@@ -230,4 +230,126 @@ console.log(arrRemoved2); 　　　　　　　　　　// [] (插入不返回)
 var arrRemoved3 = arr.splice(1,1,2,4);
 console.log(arr); 　　　　　　　　　　　　　　　// [5, 2, 4, 4, 6, 9, 11] (从下标1的位置开始删除，删除一项，并插入2,4)
 console.log(arrRemoved3); 　　　　　　　　　　//[7] (返回删除项)
+```
+
+### 1-14. map
+> 指“映射”，对数组中的每一项`运行给定`的`函数`，返回每次函数调用的`结果`组成的`数组`。
+
+```
+// 下面代码利用map方法实现数组中每个数求平方。
+var arr = [1, 2, 3, 4, 5];
+var arr2 = arr.map(function(item){
+    return item*item;
+});
+console.log(arr2); // [1, 4, 9, 16, 25]
+console.log(arr); //  [1, 2, 3, 4, 5] 不改变远数组
+```
+
+### 1-15. some
+> 判断数组中是否存在满足条件的项，只要有一项满足条件，就会返回true。
+```
+var arr = [1, 2, 3, 4, 5];
+var arr2 = arr.some(function(x) {
+    return x < 3;
+}); 
+console.log(arr2); //true
+var arr3 = arr.some(function(x) {
+    return x < 1;
+}); 
+console.log(arr3); // false
+```
+### 1-16. reduce和reduceRight
+> reduce从数组的第一项开始，逐个遍历到最后
+> reduceRight数组的最后一项开始，向前遍历到第一项
+
+**4 个参数**：
+
+- 前一个值
+- 当前值
+- 项的索引
+- 数组对象。
+
+这个函数返回的任何值都会作`为第一个参数`自动传给`下一项`。
+
+reduce
+```
+// reduce实现数组求和，数组一开始加了一个初始值10。
+// 也就是一开始prev：10,cur：1,index：0,array：[1,2,3,4,5]
+var values = [1,2,3,4,5];
+var sum = values.reduce(function(prev, cur, index, array){
+    return prev + cur;
+},10);
+console.log(sum); //25
+```
+
+reduceRight
+```
+// reduceRight()实现数组求和，数组一开始加了一个初始值10。
+// 也就是一开始prev：10,cur：5,index：4,array：[1,2,3,4,5]
+var values = [1,2,3,4,5];
+var sum = values.reduceRight(function(prev, cur, index, array){
+    return prev + cur;
+},10);
+console.log(sum); //25
+```
+
+
+## 2. 对象
+
+> JS对象是属性变量的容器
+
+
+### 2-1. Object.assign() 
+> 将所有可枚举属性的值从一个或多个`源对象`复制到`目标对象`。它将返回`目标对象`。连接两个或更多的数组，并返回结果。将`()里后面`的元素,拼接到`()里前面`的数组中
+```
+let target = { a: 1, b: 2 };
+let source = { b: 4, c: 5 };
+let Target = Object.assign(target, source);
+console.log(target);  // {a: 1, b: 4, c: 5}   目标对象修改，相同属性以源对象为准
+console.log(source);  // { b: 4, c: 5 }       源对象不会修改
+console.log(Target);   //{a: 1, b: 4, c: 5}   返回目标对象
+
+```
+
+### 2-2. Object.create()
+> 创建一个新对象，使用`现有`的对象来提供`新`创建的对象的`__proto__`。 
+
+```
+const person = {
+  isHuman: false,
+  printIntroduction: function () {
+    console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+  }
+};
+ 
+const me = Object.create(person); 
+console.log(me)  // {} 该对象的原型含有person的属性和方法
+console.log(me.name, me.isHuman, me.printIntroduction)  //undefined false  fn()
+
+ 
+me.name = "Matthew";    // name 在me中存在，但是不会加到person中
+me.isHuman = true;      // me的isHuman会被重置
+ 
+me.printIntroduction(); //My name is Matthew. Am I human? true
+console.log(me)         // {name: "Matthew", isHuman: true} 
+console.log(person)    //{isHuman: false, printIntroduction: ƒ}
+```
+
+### 2-3. Object.defineProperties() 
+> 直接在一个对象上定义`新的属性`或修改`现有属性`，并返回该对象。
+```
+var obj = {};
+Object.defineProperties(obj, {
+  'property1': {
+    value: true,
+    writable: true
+  },
+  'property2': {
+    value: 'Hello',
+    writable: false
+  }
+})
+
+
+obj
 ```
