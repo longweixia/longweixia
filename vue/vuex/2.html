@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>1. 直接修改与commit提交mutation修改state的差异 | 资料库</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+    <link rel="icon" href="/longweixia/favicon.ico">
+    <meta name="description" content="10点读书">
+    
+    <link rel="preload" href="/longweixia/assets/css/0.styles.e7f35309.css" as="style"><link rel="preload" href="/longweixia/assets/js/app.30853e2a.js" as="script"><link rel="preload" href="/longweixia/assets/js/2.19b4ab8a.js" as="script"><link rel="preload" href="/longweixia/assets/js/78.a2f5ab6e.js" as="script"><link rel="prefetch" href="/longweixia/assets/js/10.17389278.js"><link rel="prefetch" href="/longweixia/assets/js/11.13e843aa.js"><link rel="prefetch" href="/longweixia/assets/js/12.9ad5d840.js"><link rel="prefetch" href="/longweixia/assets/js/13.79fcf880.js"><link rel="prefetch" href="/longweixia/assets/js/14.c4361c82.js"><link rel="prefetch" href="/longweixia/assets/js/15.44426049.js"><link rel="prefetch" href="/longweixia/assets/js/16.581eff27.js"><link rel="prefetch" href="/longweixia/assets/js/17.d109ff42.js"><link rel="prefetch" href="/longweixia/assets/js/18.3ec7fcf3.js"><link rel="prefetch" href="/longweixia/assets/js/19.35fd21bb.js"><link rel="prefetch" href="/longweixia/assets/js/20.66a6e34b.js"><link rel="prefetch" href="/longweixia/assets/js/21.71051137.js"><link rel="prefetch" href="/longweixia/assets/js/22.9869167b.js"><link rel="prefetch" href="/longweixia/assets/js/23.2ca1aaba.js"><link rel="prefetch" href="/longweixia/assets/js/24.2232ffb7.js"><link rel="prefetch" href="/longweixia/assets/js/25.e0f0715a.js"><link rel="prefetch" href="/longweixia/assets/js/26.f5c106a0.js"><link rel="prefetch" href="/longweixia/assets/js/27.9e31faa4.js"><link rel="prefetch" href="/longweixia/assets/js/28.113fc19e.js"><link rel="prefetch" href="/longweixia/assets/js/29.bc167a67.js"><link rel="prefetch" href="/longweixia/assets/js/3.88b3d293.js"><link rel="prefetch" href="/longweixia/assets/js/30.03a76239.js"><link rel="prefetch" href="/longweixia/assets/js/31.c81c40f1.js"><link rel="prefetch" href="/longweixia/assets/js/32.bd90225a.js"><link rel="prefetch" href="/longweixia/assets/js/33.1d2874e8.js"><link rel="prefetch" href="/longweixia/assets/js/34.b5be839b.js"><link rel="prefetch" href="/longweixia/assets/js/35.346f3036.js"><link rel="prefetch" href="/longweixia/assets/js/36.81c5024f.js"><link rel="prefetch" href="/longweixia/assets/js/37.c67ed549.js"><link rel="prefetch" href="/longweixia/assets/js/38.77987057.js"><link rel="prefetch" href="/longweixia/assets/js/39.9c901ab8.js"><link rel="prefetch" href="/longweixia/assets/js/4.793f9f6e.js"><link rel="prefetch" href="/longweixia/assets/js/40.3bf5737a.js"><link rel="prefetch" href="/longweixia/assets/js/41.10d00b34.js"><link rel="prefetch" href="/longweixia/assets/js/42.d1c1060a.js"><link rel="prefetch" href="/longweixia/assets/js/43.f8e83df1.js"><link rel="prefetch" href="/longweixia/assets/js/44.0da5d0cd.js"><link rel="prefetch" href="/longweixia/assets/js/45.94d21e4f.js"><link rel="prefetch" href="/longweixia/assets/js/46.9d1beff0.js"><link rel="prefetch" href="/longweixia/assets/js/47.adbb41c5.js"><link rel="prefetch" href="/longweixia/assets/js/48.905e25b7.js"><link rel="prefetch" href="/longweixia/assets/js/49.2763efa3.js"><link rel="prefetch" href="/longweixia/assets/js/5.e7ca5135.js"><link rel="prefetch" href="/longweixia/assets/js/50.ffe0192f.js"><link rel="prefetch" href="/longweixia/assets/js/51.b4a8bbd5.js"><link rel="prefetch" href="/longweixia/assets/js/52.3bf3d83c.js"><link rel="prefetch" href="/longweixia/assets/js/53.c938b0b0.js"><link rel="prefetch" href="/longweixia/assets/js/54.a12149e7.js"><link rel="prefetch" href="/longweixia/assets/js/55.2f8f4d12.js"><link rel="prefetch" href="/longweixia/assets/js/56.b040f922.js"><link rel="prefetch" href="/longweixia/assets/js/57.3565cde1.js"><link rel="prefetch" href="/longweixia/assets/js/58.ddccb3ba.js"><link rel="prefetch" href="/longweixia/assets/js/59.052024c3.js"><link rel="prefetch" href="/longweixia/assets/js/6.a797012b.js"><link rel="prefetch" href="/longweixia/assets/js/60.6ef28404.js"><link rel="prefetch" href="/longweixia/assets/js/61.512be1bf.js"><link rel="prefetch" href="/longweixia/assets/js/62.6e05c141.js"><link rel="prefetch" href="/longweixia/assets/js/63.ca304a0d.js"><link rel="prefetch" href="/longweixia/assets/js/64.6477c58d.js"><link rel="prefetch" href="/longweixia/assets/js/65.e0da78df.js"><link rel="prefetch" href="/longweixia/assets/js/66.e109c264.js"><link rel="prefetch" href="/longweixia/assets/js/67.e498d6df.js"><link rel="prefetch" href="/longweixia/assets/js/68.276ed907.js"><link rel="prefetch" href="/longweixia/assets/js/69.2bc6a533.js"><link rel="prefetch" href="/longweixia/assets/js/7.55c60d55.js"><link rel="prefetch" href="/longweixia/assets/js/70.bb6787af.js"><link rel="prefetch" href="/longweixia/assets/js/71.5ac32627.js"><link rel="prefetch" href="/longweixia/assets/js/72.ba9cb06b.js"><link rel="prefetch" href="/longweixia/assets/js/73.fe9c59de.js"><link rel="prefetch" href="/longweixia/assets/js/74.ecb3f57f.js"><link rel="prefetch" href="/longweixia/assets/js/75.0169e10d.js"><link rel="prefetch" href="/longweixia/assets/js/76.f804ad10.js"><link rel="prefetch" href="/longweixia/assets/js/77.49c57594.js"><link rel="prefetch" href="/longweixia/assets/js/79.acb9ebc0.js"><link rel="prefetch" href="/longweixia/assets/js/8.cce1d689.js"><link rel="prefetch" href="/longweixia/assets/js/80.8d936fe0.js"><link rel="prefetch" href="/longweixia/assets/js/81.0e3986b9.js"><link rel="prefetch" href="/longweixia/assets/js/82.774d6e22.js"><link rel="prefetch" href="/longweixia/assets/js/83.c0ddf8bb.js"><link rel="prefetch" href="/longweixia/assets/js/84.5a58253a.js"><link rel="prefetch" href="/longweixia/assets/js/85.20ba04b9.js"><link rel="prefetch" href="/longweixia/assets/js/9.023f9158.js">
+    <link rel="stylesheet" href="/longweixia/assets/css/0.styles.e7f35309.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/longweixia/" class="home-link router-link-active"><!----> <span class="site-name">资料库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/longweixia/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/longweixia/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/longweixia/js/" class="nav-link">
+  JS
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/longweixia/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/longweixia/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/longweixia/js/" class="nav-link">
+  JS
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/html/" class="sidebar-heading clickable"><span>1. HTML</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/css/" class="sidebar-heading clickable"><span>2. CSS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/js/" class="sidebar-heading clickable"><span>3. JS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/vue/" class="sidebar-heading clickable router-link-active open"><span>4. Vue</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>vue基础</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>面试</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>源码分析</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>VUE3.0</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>Vuex</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/longweixia/vue/vuex/1copy.html" class="sidebar-link">vuex使用指南</a></li><li><a href="/longweixia/vue/vuex/2.html" aria-current="page" class="active sidebar-link">vuex问答</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_1-直接修改与commit提交mutation修改state的差异" class="sidebar-link">1. 直接修改与commit提交mutation修改state的差异</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_2-vuex中状态是对象时要注意什么" class="sidebar-link">2. Vuex中状态是对象时要注意什么</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_3-组件中批量使用vuex的state状态" class="sidebar-link">3. 组件中批量使用Vuex的state状态</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_4-怎么从state派生一些状态出来让多个组件使用它" class="sidebar-link">4. 怎么从state派生一些状态出来让多个组件使用它</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_5-用getter来过滤state" class="sidebar-link">5. 用getter来过滤state</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_6-组件中批量给getter属性取别名" class="sidebar-link">6.组件中批量给getter属性取别名</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_7-怎么改变state的状态。" class="sidebar-link">7. 怎么改变state的状态。</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_8-action和mutation的区别" class="sidebar-link">8. action和mutation的区别</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_9-如何知道异步的action何时结束" class="sidebar-link">9. 如何知道异步的action何时结束</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_10-vuex中有两个action-分别是actiona和actionb-其内都是异步操作-在actionb里面要提交actiona-需在actiona处理结束再执行actionb" class="sidebar-link">10. Vuex中有两个action，分别是actionA和actionB，其内都是异步操作，在actionB里面要提交actionA，需在actionA处理结束再执行actionB？</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_11-vuex模块的简单使用" class="sidebar-link">11. Vuex模块的简单使用</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_12-模块中getter和mutation接收的第一个参数state-是全局的还是模块的" class="sidebar-link">12. 模块中getter和mutation接收的第一个参数state，是全局的还是模块的？</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_13-在模块中怎么访问全局的state和getter" class="sidebar-link">13. 在模块中怎么访问全局的state和getter</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_14-组件中如何使用各个属性" class="sidebar-link">14. 组件中如何使用各个属性</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_15-带命名空间模块内提交全局mutation和action" class="sidebar-link">15.带命名空间模块内提交全局mutation和action</a></li><li class="sidebar-sub-header"><a href="/longweixia/vue/vuex/2.html#_16-命名空间的模块内注册全局action" class="sidebar-link">16.命名空间的模块内注册全局action</a></li></ul></li></ul></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/ts/" class="sidebar-heading clickable"><span>5. TS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/node/" class="sidebar-heading clickable"><span>6. Node</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/business/" class="sidebar-heading clickable"><span>7. 业务</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/tools/" class="sidebar-heading clickable"><span>8. 工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/browser/" class="sidebar-heading clickable"><span>9. 浏览器</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/vuePress/" class="sidebar-heading clickable"><span>10. vuePress</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/xcx/" class="sidebar-heading clickable"><span>11. 小程序</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/note/" class="sidebar-heading clickable"><span>12. 总结</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="_1-直接修改与commit提交mutation修改state的差异"><a href="#_1-直接修改与commit提交mutation修改state的差异" class="header-anchor">#</a> 1. 直接修改与commit提交mutation修改state的差异</h2> <ul><li>共同点： 能够修改state里的变量，并且是响应式的</li> <li>不同点：
+若将vue创建 store 的时候传入 <code>strict: true</code>, 开启<code>严格模式</code>，那么任何修改state的操作，只要不经过 mutation的函数都会报错</li></ul> <p>一般来说，我们都是通过mutation来修改state的</p> <p><strong>使用commit提交到mutation修改state的优点</strong>：</p> <ul><li>代码结构更清晰</li> <li>可以复用代码，提高开发效率</li></ul> <h2 id="_2-vuex中状态是对象时要注意什么"><a href="#_2-vuex中状态是对象时要注意什么" class="header-anchor">#</a> 2. Vuex中状态是对象时要注意什么</h2> <p>因为对象是引用类型，复制后改变属性还是会影响原始数据，这样会改变state里面的状态，是不允许，所以先用深度克隆复制对象，再修改。</p> <h2 id="_3-组件中批量使用vuex的state状态"><a href="#_3-组件中批量使用vuex的state状态" class="header-anchor">#</a> 3. 组件中批量使用Vuex的state状态</h2> <p>使用mapState辅助函数, 利用对象展开运算符将state混入computed对象中</p> <div class="language- extra-class"><pre class="language-text"><code>import {mapState} from 'vuex'
+export default{
+    computed:{
+        ...mapState(['a','b'])
+    }
+}
+</code></pre></div><h2 id="_4-怎么从state派生一些状态出来让多个组件使用它"><a href="#_4-怎么从state派生一些状态出来让多个组件使用它" class="header-anchor">#</a> 4. 怎么从state派生一些状态出来让多个组件使用它</h2> <ul><li>使用getter属性，相当Vue中的计算属性computed，只有原状态改变派生状态才会改变。</li> <li>getter接收两个参数，第一个是<code>state</code>，第二个是<code>getters</code>(可以用来访问其他getter)。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>const store = new Vuex.Store({
+    state: {
+        a: 10,
+        b: 10,
+        c: 0.7,
+    },
+    getters: {
+        total: state =&gt; {
+            return state.a * state.b
+        },
+        getTotal: (state, getters) =&gt; { // 这里的getters当前Vuex中的getters
+            return state.c * getters.total
+        }
+    },
+});
+</code></pre></div><p>然后在组件中可以用计算属性computed通过this.$store.getters.total这样来访问这些派生转态。</p> <div class="language- extra-class"><pre class="language-text"><code>computed: {
+    total() {
+        return this.$store.getters.total
+    },
+    getTotal() {
+        return this.$store.getters.getTotal
+    }
+}
+</code></pre></div><h2 id="_5-用getter来过滤state"><a href="#_5-用getter来过滤state" class="header-anchor">#</a> 5. 用getter来过滤state</h2> <p>通过让getter返回一个函数，来实现给getter传参。然后通过参数来进行判断从而获取state中满足要求的状态。</p> <div class="language- extra-class"><pre class="language-text"><code>const store = new Vuex.Store({
+    state: {
+        todos: [
+            { id: 1, text: '...', done: true },
+            { id: 2, text: '...', done: false }
+        ]
+    },
+    getters: {
+        getTodoById: (state) =&gt; (id) =&gt;{
+            return state.todos.find(todo =&gt; todo.id === id)
+        }
+    },
+});
+</code></pre></div><p>然后在组件中可以用计算属性computed通过this.$store.getters.getTodoById(2)这样来访问这些派生转态。</p> <div class="language- extra-class"><pre class="language-text"><code>computed: {
+    getTodoById() {
+        return this.$store.getters.getTodoById
+    },
+}
+mounted(){
+    console.log(this.getTodoById(2)) // { id: 2, text: '...', done: false }
+}
+</code></pre></div><h2 id="_6-组件中批量给getter属性取别名"><a href="#_6-组件中批量给getter属性取别名" class="header-anchor">#</a> 6.组件中批量给getter属性取别名</h2> <p>使用mapGetters辅助函数, 利用对象展开运算符将getter混入computed 对象中</p> <div class="language- extra-class"><pre class="language-text"><code>import {mapGetters} from 'vuex'
+export default{
+    computed:{
+        ...mapGetters({
+            myTotal:'total', //给getter中的total取别名myTotal
+            myDiscountTotal:'discountTotal',
+        })
+    }
+}
+</code></pre></div><h2 id="_7-怎么改变state的状态。"><a href="#_7-怎么改变state的状态。" class="header-anchor">#</a> 7. 怎么改变state的状态。</h2> <p>参考答案<br>
+首先要在mutations中注册一个mutation</p> <div class="language- extra-class"><pre class="language-text"><code>const store = new Vuex.Store({
+    state: {
+        number: 10,
+    },
+    mutations: {
+        SET_NUMBER(state,data){ //data是外界传过来的
+            state.number=data;
+        }
+    },
+});
+</code></pre></div><p>在组件中使用this.$store.commit提交mutation，改变number</p> <div class="language- extra-class"><pre class="language-text"><code>this.$store.commit('SET_NUMBER',10)
+</code></pre></div><h2 id="_8-action和mutation的区别"><a href="#_8-action和mutation的区别" class="header-anchor">#</a> 8. action和mutation的区别</h2> <ul><li>action 提交的是 mutation，而<code>不是直接变更状态</code>。mutation可以直接变更状态。</li> <li><code>action</code> 可以包含任意<code>异步</code>操作。<code>mutation</code>只能是<code>同步</code>操作。</li> <li>提交方式不同，action 是用this.$store.<code>dispatch</code>('ACTION_NAME',data)来提交。mutation是用this.$store.<code>commit</code>('SET_NUMBER',10)来提交。</li> <li>接收参数不同，mutation第一个参数是<code>state</code>，而action第一个参数是<code>context</code>，其包含了</li></ul> <div class="language- extra-class"><pre class="language-text"><code>{
+    state,      // 等同于 `store.state`，若在模块中则为局部状态
+    rootState,  // 等同于 `store.state`，只存在于模块中
+    commit,     // 等同于 `store.commit`
+    dispatch,   // 等同于 `store.dispatch`
+    getters,    // 等同于 `store.getters`
+    rootGetters // 等同于 `store.getters`，只存在于模块中
+}
+</code></pre></div><h2 id="_9-如何知道异步的action何时结束"><a href="#_9-如何知道异步的action何时结束" class="header-anchor">#</a> 9. 如何知道异步的action何时结束</h2> <p>在action函数中返回Promise，然后再提交时候用then处理</p> <div class="language- extra-class"><pre class="language-text"><code>actions:{
+    SETA({commit},data){
+        return new Promise((resolve,reject) =&gt;{
+            setTimeout(() =&gt;{
+                commit('SET_NUMBER',10);
+                resolve();
+            },2000)
+        })
+    }
+}
+this.$store.dispatch('SETA').then(() =&gt; {
+  // ...action SETA 执行完后就会执行这里
+})
+</code></pre></div><h2 id="_10-vuex中有两个action-分别是actiona和actionb-其内都是异步操作-在actionb里面要提交actiona-需在actiona处理结束再执行actionb"><a href="#_10-vuex中有两个action-分别是actiona和actionb-其内都是异步操作-在actionb里面要提交actiona-需在actiona处理结束再执行actionb" class="header-anchor">#</a> 10. Vuex中有两个action，分别是actionA和actionB，其内都是异步操作，在actionB里面要提交actionA，需在actionA处理结束再执行actionB？</h2> <p>利用ES6的async和await来实现。</p> <div class="language- extra-class"><pre class="language-text"><code>actions:{
+    async actionA({commit}){
+        //...
+    },
+    async actionB({dispatch}){
+        await dispatch ('actionA')//等待actionA完成
+        // ... 
+    }
+}
+</code></pre></div><h2 id="_11-vuex模块的简单使用"><a href="#_11-vuex模块的简单使用" class="header-anchor">#</a> 11. Vuex模块的简单使用</h2> <p><strong>为什么要用模块化呢？</strong></p> <p>因为使用单一状态树，应用的所有状态会集中到一个比较大的对象。当应用变得非常复杂时，store 对象就有可能变得相当臃肿。</p> <p>所以将 store 分割成模块（module）。每个模块拥有自己的 state、mutations、actions、getters，甚至是嵌套子模块，从上至下进行同样方式的分割。</p> <p><strong>在module文件新建moduleA.js和moduleB.js文件。在文件中写入</strong>:</p> <div class="language- extra-class"><pre class="language-text"><code>const state={
+    //...
+}
+const getters={
+    //...
+}
+const mutations={
+    //...
+}
+const actions={
+    //...
+}
+export default{
+    state,
+    getters,
+    mutations,
+    actions
+}
+</code></pre></div><p><strong>然后再index.js引入模块</strong></p> <div class="language- extra-class"><pre class="language-text"><code>import Vue from 'vue';
+import Vuex from 'vuex';
+Vue.use(Vuex);
+import moduleA from './module/moduleA'
+import moduleB from './module/moduleB'
+const store = new Vuex.Store({
+    modules:{
+        moduleA,
+        moduleB
+    }
+})
+export default store
+</code></pre></div><h2 id="_12-模块中getter和mutation接收的第一个参数state-是全局的还是模块的"><a href="#_12-模块中getter和mutation接收的第一个参数state-是全局的还是模块的" class="header-anchor">#</a> 12. 模块中getter和mutation接收的第一个参数state，是全局的还是模块的？</h2> <p>第一个参数state是模块的state，也就是局部的state。</p> <h2 id="_13-在模块中怎么访问全局的state和getter"><a href="#_13-在模块中怎么访问全局的state和getter" class="header-anchor">#</a> 13. 在模块中怎么访问全局的state和getter</h2> <ul><li>在<code>getter</code>中可以通过第三个参数<code>rootState</code>访问到全局的state,可以通过第四个参数<code>rootGetters</code>访问到全局的getter。</li> <li>在<code>mutation</code>中<code>不可以</code>访问全局的satat和getter，只能访问到<code>局部的state</code>。</li> <li>在<code>action</code>中第一个参数context中的<code>context.rootState</code>访问到全局的state，<code>context.rootGetters</code>访问到全局的getter。</li></ul> <h2 id="_14-组件中如何使用各个属性"><a href="#_14-组件中如何使用各个属性" class="header-anchor">#</a> 14. 组件中如何使用各个属性</h2> <ul><li>直接通过<code>this.$store.getters</code>和<code>this.$store.state</code>来访问模块中的getter和state。</li> <li>直接通过<code>this.$store.commit('mutationA',data)</code>提交模块中的mutation。</li> <li>直接通过<code>this.$store.dispatch('actionA,data')</code>提交模块中的action。</li></ul> <h2 id="_15-带命名空间模块内提交全局mutation和action"><a href="#_15-带命名空间模块内提交全局mutation和action" class="header-anchor">#</a> 15.带命名空间模块内提交全局mutation和action</h2> <p>将 <code>{ root: true }</code> 作为<code>第三参数</code>传给 dispatch 或 commit 即可。</p> <ul><li>this.$store.dispatch('actionA', null, <code>{ root: true }</code>)</li> <li>this.$store.commit('mutationA', null, <code>{ root: true }</code>)</li></ul> <h2 id="_16-命名空间的模块内注册全局action"><a href="#_16-命名空间的模块内注册全局action" class="header-anchor">#</a> 16.命名空间的模块内注册全局action</h2> <div class="language- extra-class"><pre class="language-text"><code>actions: {
+    actionA: {
+        root: true,
+        handler (context, data) { ... }
+    }
+  }
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/longweixia/vue/vuex/1copy.html" class="prev">
+        vuex使用指南
+      </a></span> <span class="next"><a href="/longweixia/ts/base/1.html">
+        基础1
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/longweixia/assets/js/app.30853e2a.js" defer></script><script src="/longweixia/assets/js/2.19b4ab8a.js" defer></script><script src="/longweixia/assets/js/78.a2f5ab6e.js" defer></script>
+  </body>
+</html>

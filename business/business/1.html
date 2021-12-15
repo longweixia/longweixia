@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>一.不使用插件 | 资料库</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+    <link rel="icon" href="/longweixia/favicon.ico">
+    <meta name="description" content="10点读书">
+    
+    <link rel="preload" href="/longweixia/assets/css/0.styles.e7f35309.css" as="style"><link rel="preload" href="/longweixia/assets/js/app.30853e2a.js" as="script"><link rel="preload" href="/longweixia/assets/js/2.19b4ab8a.js" as="script"><link rel="preload" href="/longweixia/assets/js/17.d109ff42.js" as="script"><link rel="prefetch" href="/longweixia/assets/js/10.17389278.js"><link rel="prefetch" href="/longweixia/assets/js/11.13e843aa.js"><link rel="prefetch" href="/longweixia/assets/js/12.9ad5d840.js"><link rel="prefetch" href="/longweixia/assets/js/13.79fcf880.js"><link rel="prefetch" href="/longweixia/assets/js/14.c4361c82.js"><link rel="prefetch" href="/longweixia/assets/js/15.44426049.js"><link rel="prefetch" href="/longweixia/assets/js/16.581eff27.js"><link rel="prefetch" href="/longweixia/assets/js/18.3ec7fcf3.js"><link rel="prefetch" href="/longweixia/assets/js/19.35fd21bb.js"><link rel="prefetch" href="/longweixia/assets/js/20.66a6e34b.js"><link rel="prefetch" href="/longweixia/assets/js/21.71051137.js"><link rel="prefetch" href="/longweixia/assets/js/22.9869167b.js"><link rel="prefetch" href="/longweixia/assets/js/23.2ca1aaba.js"><link rel="prefetch" href="/longweixia/assets/js/24.2232ffb7.js"><link rel="prefetch" href="/longweixia/assets/js/25.e0f0715a.js"><link rel="prefetch" href="/longweixia/assets/js/26.f5c106a0.js"><link rel="prefetch" href="/longweixia/assets/js/27.9e31faa4.js"><link rel="prefetch" href="/longweixia/assets/js/28.113fc19e.js"><link rel="prefetch" href="/longweixia/assets/js/29.bc167a67.js"><link rel="prefetch" href="/longweixia/assets/js/3.88b3d293.js"><link rel="prefetch" href="/longweixia/assets/js/30.03a76239.js"><link rel="prefetch" href="/longweixia/assets/js/31.c81c40f1.js"><link rel="prefetch" href="/longweixia/assets/js/32.bd90225a.js"><link rel="prefetch" href="/longweixia/assets/js/33.1d2874e8.js"><link rel="prefetch" href="/longweixia/assets/js/34.b5be839b.js"><link rel="prefetch" href="/longweixia/assets/js/35.346f3036.js"><link rel="prefetch" href="/longweixia/assets/js/36.81c5024f.js"><link rel="prefetch" href="/longweixia/assets/js/37.c67ed549.js"><link rel="prefetch" href="/longweixia/assets/js/38.77987057.js"><link rel="prefetch" href="/longweixia/assets/js/39.9c901ab8.js"><link rel="prefetch" href="/longweixia/assets/js/4.793f9f6e.js"><link rel="prefetch" href="/longweixia/assets/js/40.3bf5737a.js"><link rel="prefetch" href="/longweixia/assets/js/41.10d00b34.js"><link rel="prefetch" href="/longweixia/assets/js/42.d1c1060a.js"><link rel="prefetch" href="/longweixia/assets/js/43.f8e83df1.js"><link rel="prefetch" href="/longweixia/assets/js/44.0da5d0cd.js"><link rel="prefetch" href="/longweixia/assets/js/45.94d21e4f.js"><link rel="prefetch" href="/longweixia/assets/js/46.9d1beff0.js"><link rel="prefetch" href="/longweixia/assets/js/47.adbb41c5.js"><link rel="prefetch" href="/longweixia/assets/js/48.905e25b7.js"><link rel="prefetch" href="/longweixia/assets/js/49.2763efa3.js"><link rel="prefetch" href="/longweixia/assets/js/5.e7ca5135.js"><link rel="prefetch" href="/longweixia/assets/js/50.ffe0192f.js"><link rel="prefetch" href="/longweixia/assets/js/51.b4a8bbd5.js"><link rel="prefetch" href="/longweixia/assets/js/52.3bf3d83c.js"><link rel="prefetch" href="/longweixia/assets/js/53.c938b0b0.js"><link rel="prefetch" href="/longweixia/assets/js/54.a12149e7.js"><link rel="prefetch" href="/longweixia/assets/js/55.2f8f4d12.js"><link rel="prefetch" href="/longweixia/assets/js/56.b040f922.js"><link rel="prefetch" href="/longweixia/assets/js/57.3565cde1.js"><link rel="prefetch" href="/longweixia/assets/js/58.ddccb3ba.js"><link rel="prefetch" href="/longweixia/assets/js/59.052024c3.js"><link rel="prefetch" href="/longweixia/assets/js/6.a797012b.js"><link rel="prefetch" href="/longweixia/assets/js/60.6ef28404.js"><link rel="prefetch" href="/longweixia/assets/js/61.512be1bf.js"><link rel="prefetch" href="/longweixia/assets/js/62.6e05c141.js"><link rel="prefetch" href="/longweixia/assets/js/63.ca304a0d.js"><link rel="prefetch" href="/longweixia/assets/js/64.6477c58d.js"><link rel="prefetch" href="/longweixia/assets/js/65.e0da78df.js"><link rel="prefetch" href="/longweixia/assets/js/66.e109c264.js"><link rel="prefetch" href="/longweixia/assets/js/67.e498d6df.js"><link rel="prefetch" href="/longweixia/assets/js/68.276ed907.js"><link rel="prefetch" href="/longweixia/assets/js/69.2bc6a533.js"><link rel="prefetch" href="/longweixia/assets/js/7.55c60d55.js"><link rel="prefetch" href="/longweixia/assets/js/70.bb6787af.js"><link rel="prefetch" href="/longweixia/assets/js/71.5ac32627.js"><link rel="prefetch" href="/longweixia/assets/js/72.ba9cb06b.js"><link rel="prefetch" href="/longweixia/assets/js/73.fe9c59de.js"><link rel="prefetch" href="/longweixia/assets/js/74.ecb3f57f.js"><link rel="prefetch" href="/longweixia/assets/js/75.0169e10d.js"><link rel="prefetch" href="/longweixia/assets/js/76.f804ad10.js"><link rel="prefetch" href="/longweixia/assets/js/77.49c57594.js"><link rel="prefetch" href="/longweixia/assets/js/78.a2f5ab6e.js"><link rel="prefetch" href="/longweixia/assets/js/79.acb9ebc0.js"><link rel="prefetch" href="/longweixia/assets/js/8.cce1d689.js"><link rel="prefetch" href="/longweixia/assets/js/80.8d936fe0.js"><link rel="prefetch" href="/longweixia/assets/js/81.0e3986b9.js"><link rel="prefetch" href="/longweixia/assets/js/82.774d6e22.js"><link rel="prefetch" href="/longweixia/assets/js/83.c0ddf8bb.js"><link rel="prefetch" href="/longweixia/assets/js/84.5a58253a.js"><link rel="prefetch" href="/longweixia/assets/js/85.20ba04b9.js"><link rel="prefetch" href="/longweixia/assets/js/9.023f9158.js">
+    <link rel="stylesheet" href="/longweixia/assets/css/0.styles.e7f35309.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/longweixia/" class="home-link router-link-active"><!----> <span class="site-name">资料库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/longweixia/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/longweixia/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/longweixia/js/" class="nav-link">
+  JS
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/longweixia/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/longweixia/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/longweixia/js/" class="nav-link">
+  JS
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/html/" class="sidebar-heading clickable"><span>1. HTML</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/css/" class="sidebar-heading clickable"><span>2. CSS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/js/" class="sidebar-heading clickable"><span>3. JS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/vue/" class="sidebar-heading clickable"><span>4. Vue</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/ts/" class="sidebar-heading clickable"><span>5. TS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/node/" class="sidebar-heading clickable"><span>6. Node</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/business/" class="sidebar-heading clickable router-link-active open"><span>7. 业务</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>普通业务</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/longweixia/business/business/1.html" aria-current="page" class="active sidebar-link">js 实现调用浏览器打印的功能</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/longweixia/business/business/1.html#一-不使用插件" class="sidebar-link">一.不使用插件</a></li><li class="sidebar-sub-header"><a href="/longweixia/business/business/1.html#二-使用插件" class="sidebar-link">二.使用插件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/longweixia/business/business/1.html#_1-使用前准备" class="sidebar-link">1. 使用前准备</a></li></ul></li><li class="sidebar-sub-header"><a href="/longweixia/business/business/1.html#三-打印问题" class="sidebar-link">三.打印问题</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/longweixia/business/business/1.html#_1-需要给分页的每一页加表头和表尾" class="sidebar-link">1. 需要给分页的每一页加表头和表尾</a></li><li class="sidebar-sub-header"><a href="/longweixia/business/business/1.html#_2-当数据很多的时候-表头和表尾都被表体的td设置的边框给穿插过去了" class="sidebar-link">2. 当数据很多的时候，表头和表尾都被表体的td设置的边框给穿插过去了</a></li></ul></li><li class="sidebar-sub-header"><a href="/longweixia/business/business/1.html#四-完整代码-vue" class="sidebar-link">四. 完整代码(vue)</a></li></ul></li><li><a href="/longweixia/business/business/2.html" class="sidebar-link">html基础(2)</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>面试</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/tools/" class="sidebar-heading clickable"><span>8. 工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/browser/" class="sidebar-heading clickable"><span>9. 浏览器</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/vuePress/" class="sidebar-heading clickable"><span>10. vuePress</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/xcx/" class="sidebar-heading clickable"><span>11. 小程序</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/note/" class="sidebar-heading clickable"><span>12. 总结</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="一-不使用插件"><a href="#一-不使用插件" class="header-anchor">#</a> 一.不使用插件</h2> <div class="language- extra-class"><pre class="language-text"><code>printing() {
+        //只打印该dom节点内的内容
+        let bdHtml = window.document.getElementById(&quot;printeDetail&quot;).innerHTML;
+        //打印内容赋值innerHTML绘制新页面（window.print()打印当前页)
+        window.document.body.innerHTML = bdHtml;
+        //调用浏览器打印机
+        window.print();
+        //刷新页面返回当前页
+        //  this.$router.back()
+        // location.reload();
+}
+</code></pre></div><p>该方法可以直接调用浏览器打印的api，但是样式会有一些问题，样式在页面显示正常，但是到打印页面时会出现样式丢失。
+原因是我们只是拿到了文本内容(innerHTML)</p> <h2 id="二-使用插件"><a href="#二-使用插件" class="header-anchor">#</a> 二.使用插件</h2> <h3 id="_1-使用前准备"><a href="#_1-使用前准备" class="header-anchor">#</a> 1. 使用前准备</h3> <h4 id="_1-1-安装插件"><a href="#_1-1-安装插件" class="header-anchor">#</a> 1-1.安装插件</h4> <div class="language- extra-class"><pre class="language-text"><code>npm install vue-print-nb --save
+</code></pre></div><h4 id="_1-2-引入插件"><a href="#_1-2-引入插件" class="header-anchor">#</a> 1-2.引入插件</h4> <div class="language- extra-class"><pre class="language-text"><code>//在main.js中
+import Print from 'vue-print-nb'
+Vue.use(Print);
+</code></pre></div><h4 id="_1-3使用插件"><a href="#_1-3使用插件" class="header-anchor">#</a> 1.3使用插件</h4> <div class="language- extra-class"><pre class="language-text"><code> &lt;div&gt;
+    &lt;!-- 绑定该指令，直接可以打印 --&gt;
+    &lt;div v-print=&quot;printObj&quot;&gt;打印&lt;/div&gt;
+    &lt;div id=&quot;printeDetail&quot;&gt;
+      &lt;h1&gt;打印内容区&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+//data 配置printObj对象
+ data() {
+    return {
+      printObj: {
+        id: &quot;printeDetail&quot;,  //要打印的dom片段的id
+        popTitle: &quot;&quot;, 打印内容的标题，会直接展示在打印页上面,如果不写会默认展示当前页面的title
+      },
+    }
+ }
+</code></pre></div><p>点击上面的打印按钮，就可以指直接打印内容了。</p> <h4 id="_1-4-需要注意的点"><a href="#_1-4-需要注意的点" class="header-anchor">#</a> 1-4. 需要注意的点：</h4> <ul><li><ol><li>要打印的dom片段，打印前必须要在页面展示出来，才能打印</li></ol></li></ul> <h2 id="三-打印问题"><a href="#三-打印问题" class="header-anchor">#</a> 三.打印问题</h2> <blockquote><p>打印真的有太多问题，比如打印表格会被截断边框，表格tbody的边框作用到了theader上了，样式和预览时不一致，打印无法自然分页，无法给每一页加上表头和表尾</p></blockquote> <h3 id="_1-需要给分页的每一页加表头和表尾"><a href="#_1-需要给分页的每一页加表头和表尾" class="header-anchor">#</a> 1. 需要给分页的每一页加表头和表尾</h3> <blockquote><p>分页给每一页加相同的表头和表尾，这里用到了表格的2个属性：<code>在thead标签加入</code><strong>display: table-header-group;</strong><code>和在tfoot中加入</code><strong>display: table-footer-group;</strong></p></blockquote> <p><strong>效果：</strong><br> <a data-fancybox="" title="分页加表头和表尾" href="/prit2.png"><img src="/prit2.png" alt="分页加表头和表尾"></a></p> <p><strong>小问题：</strong></p> <ul><li>表格下方内容区和表尾可能会有空白间隔，这是因为当前页下方剩余的地方放不下完整的一行了，为了完整的显示，就会把多出的行显示在下一页，所以会有空白</li></ul> <p><strong>解决：</strong></p> <ul><li>修改tbody中的td高度，使空白能完整的放满一行</li></ul> <details><summary>【点击查看完整代码】</summary> <div class="language- extra-class"><pre class="language-text"><code>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+    &lt;title&gt;无标题文档&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        @media print {
+            INPUT {
+                display: none;
+            }
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+ 
+&lt;body&gt;
+    &lt;input type=&quot;button&quot; value=&quot; 打 印 &quot; onclick=&quot;javascript: window.print();&quot;&gt;
+    &lt;table border-collapse=&quot;collapse&quot;
+ 
+    cellpadding=&quot;5&quot;
+    cellspacing=&quot;0&quot;
+    width=&quot;975&quot;
+    align=&quot;center&quot;&gt;
+        &lt;thead style=&quot;display: table-header-group;&quot;&gt;
+            &lt;tr&gt;
+                &lt;td colspan=&quot;7&quot; align=&quot;center&quot; style=&quot;border: 2px solid black;border-right: none;padding: 10px;&quot;&gt;
+                    &lt;div style=&quot;font-weight: bold;&quot;&gt;姓名/电话&lt;/div&gt;
+                &lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border: 2px solid black;padding: 10px;&quot;&gt;地址&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border-left: 2px solid black;padding: 10px;border-bottom:2px solid black;border-right: 2px solid black;&quot;&gt;姓名&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;padding: 10px;border-bottom:2px solid black;border-right: 2px solid black;&quot;&gt;电话&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border-right: 2px solid black;padding: 10px;border-bottom:2px solid black&quot;&gt;演员&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border-right: 2px solid black;padding: 10px;border-bottom:2px solid black&quot;&gt;时间&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border-right: 2px solid black;padding: 10px;border-bottom:2px solid black&quot;&gt;地点&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border-right: 2px solid black;padding: 10px;border-bottom:2px solid black&quot;&gt;名称&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border-right: 2px solid black;padding: 10px;border-bottom:2px solid black&quot;&gt;播放量&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border-right: 2px solid black;padding: 10px;border-bottom:2px solid black&quot;&gt;类型&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody style=&quot;text-align: center;&quot;&gt;
+            &lt;tr&gt;
+              &lt;td  style=&quot;border-left:2px solid red&quot;&gt;
+                &lt;div&gt;龙文章&lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red;border-left:2px solid red&quot;&gt;
+                176888888888
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                烦了
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                &lt;div&gt;
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                &lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                2006
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+               云南
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                16亿
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                军事
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td  style=&quot;border-left:2px solid red&quot;&gt;
+                &lt;div&gt;龙文章&lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red;border-left:2px solid red&quot;&gt;
+                176888888888
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                烦了
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                &lt;div style=&quot;border-top:2px solid #000&quot;&gt;
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+      
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+      
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                &lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                2006
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+               云南
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                16亿
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                军事
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td  style=&quot;border-left:2px solid red&quot;&gt;
+                &lt;div&gt;龙文章&lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red;border-left:2px solid red&quot;&gt;
+                176888888888
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                烦了
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                &lt;div style=&quot;border-top:2px solid #000&quot;&gt;
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                &lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                2006
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+               云南
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                16亿
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                军事
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td  style=&quot;border-left:2px solid red&quot;&gt;
+                &lt;div&gt;龙文章&lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red;border-left:2px solid red&quot;&gt;
+                176888888888
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                烦了
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                &lt;div style=&quot;border-top:2px solid #000&quot;&gt;
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    
+                &lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                2006
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+               云南
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                16亿
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                军事
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td  style=&quot;border-left:2px solid red&quot;&gt;
+                &lt;div&gt;龙文章&lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red;border-left:2px solid red&quot;&gt;
+                176888888888
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                烦了
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                &lt;div style=&quot;border-top:2px solid #000&quot;&gt;
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                    我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的
+                    团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团
+                    长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我
+                    的团长我的团我的团长我的团我的团长我的团我的团长我
+                    的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团我的团长我的团
+                &lt;/div&gt;
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                2006
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+               云南
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                16亿
+              &lt;/td&gt;
+              &lt;td  style=&quot;border-right:2px solid red&quot;&gt;
+                军事
+              &lt;/td&gt;
+            &lt;/tr&gt;
+        
+  
+          &lt;/tbody&gt;
+        &lt;tfoot style=&quot;display: table-footer-group;&quot;&gt;
+            &lt;tr&gt;
+                &lt;td colspan=&quot;7&quot; align=&quot;center&quot; style=&quot;border: 2px solid blue; border-right: none;&quot;&gt;统计：共xxx人&lt;/td&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border: 2px solid blue;&quot;&gt;共xxx省份&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tfoot&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div></details> <h3 id="_2-当数据很多的时候-表头和表尾都被表体的td设置的边框给穿插过去了"><a href="#_2-当数据很多的时候-表头和表尾都被表体的td设置的边框给穿插过去了" class="header-anchor">#</a> 2. 当数据很多的时候，表头和表尾都被表体的td设置的边框给穿插过去了</h3> <ul><li><p>这种情况会在表格某一列非常多的时候出现</p></li> <li><p>出现的原因是，当第一页无法放入整列数据时，那么这一列就会排布到第二页去。如果说它第二页依然只是渲染到自己本身的tbody的td上，那么，
+就不会出现这个问题，诡异的是，tbody的td的边框会在第二页从theader就开始排布，一直到tfooter，所以会出现，即使只设置tbody的td的边框为红色，红色的边框还是
+覆盖到了theader和tfooter。</p></li></ul> <p><strong>效果：</strong><br> <a data-fancybox="" title="分页加表头和表尾被穿插" href="/prit3.png"><img src="/prit3.png" alt="分页加表头和表尾"></a></p> <p><strong>tips：</strong><br>
+如果要自己看效果可以复制3-1的代码，然后把第一个<code>我的团长我的...</code>这段话加多一些文字（只要加第一个，后面的不用），就可以达到溢出效果。</p> <p><strong>解决：</strong></p> <ul><li>解决表尾的边框穿插，需要在<code>tfooter标签</code>加个<code>背景属性</code>，值随意。如：<code>background:#fff;</code>（嘿！惊喜的是这个设置放到theader不生效！！！只在tfooter生效）
+<ul><li><code>&lt;tfoot style=&quot;display: table-footer-group;background: black;&quot;&gt;</code></li></ul></li> <li>解决表头的边框穿插，既然是列的内容超出页面的高度，溢出到第二页，导致这种情况，那么，就可以把列设置固定高度（如果你的内容是动态的，那么这个方法不适用）</li></ul> <h2 id="四-完整代码-vue"><a href="#四-完整代码-vue" class="header-anchor">#</a> 四. 完整代码(vue)</h2> <details><summary>【点击查看完整代码】</summary> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+  &lt;div&gt;
+    &lt;!-- 绑定该指令，直接可以打印 --&gt;
+    &lt;div @click=&quot;printing&quot;&gt;打印&lt;/div&gt;
+    &lt;div v-print=&quot;printObj&quot; id=&quot;printeBtn&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;printeDetail&quot; ref=&quot;postForm&quot;&gt;
+      &lt;h1 style=&quot;text-align:center&quot;&gt;中华人民共和国海关进口转关运输货物申报单&lt;/h1&gt;
+      &lt;div style=&quot;display: table-header-group;text-align:left&quot;&gt;
+        &lt;span style=&quot;position:relative;left:4px&quot;&gt;预录入号：{{ detailData.preNo }} &lt;/span&gt;
+        &lt;!-- &lt;span class=&quot;msg-right&quot;&gt;编　　号：&lt;/span&gt; --&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;font-weight: bold;&quot;&gt;
+          &lt;div style=&quot;width: 975px;border: 2px solid #000; z-index: 10000;padding: 10px;margin-left:4px&quot;&gt;
+            &lt;div style=&quot;display: inline-block; width: 240px&quot;&gt;
+              进出境运输工具名称: {{ detailData.transName }}
+            &lt;/div&gt;
+            &lt;div style=&quot;display: inline-block; width: 240px&quot;&gt;
+              航次(航班)号:{{ detailData.nativeVoyageNo }}
+            &lt;/div&gt;
+            &lt;div style=&quot;display: inline-block; width: 250px&quot;&gt;
+              转关方式: {{ detailData.trnMode }}
+            &lt;/div&gt;
+            &lt;div style=&quot;display: inline-block; width: 200px&quot;&gt;
+              境内运输方式: {{ detailData.trafWay }}
+            &lt;/div&gt;
+          &lt;/div&gt;
+     
+        &lt;div style=&quot;border-left: 2px solid #000; border-right: 2px solid #000;width: 975px;margin-left:4px&quot;&gt;
+          &lt;div style=&quot;display: inline-block;width: 190px;z-index: 10000;padding: 10px; &quot;&gt;
+            提(运)单总数: {{ ladingLength }}
+          &lt;/div&gt;
+          &lt;div
+            style=&quot;display: inline-block;width: 200px;z-index: 10000;padding: 10px; &quot;
+          &gt;
+            货物总件数: {{ detailData.mftGoodsPiece }}
+          &lt;/div&gt;
+          &lt;div
+            style=&quot;display: inline-block;width: 200px;z-index: 10000;padding: 10px; &quot;
+          &gt;
+            货物总重量: {{ detailData.mftGrossWeight }}
+          &lt;/div&gt;
+          &lt;div
+            style=&quot;display: inline-block;width: 180px;z-index: 10000;padding: 10px; &quot;
+          &gt;
+            集装箱总数: {{ detailData.contaCount }}
+          &lt;/div&gt;
+          &lt;div style=&quot;display: inline-block;width: 178px;z-index: 10000;padding: 10px;  &quot;&gt; 境内运输工具: {{ detailData.transName }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;table
+        border-collapse=&quot;collapse&quot;
+        border=&quot;0&quot; style=&quot;border:none&quot;
+        cellpadding=&quot;5&quot;
+        cellspacing=&quot;0&quot;
+        width=&quot;975&quot;
+        align=&quot;center&quot;
+      &gt;
+        &lt;thead
+          style=&quot;display: table-header-group;font-weight: bold;&quot;
+        &gt;
+          &lt;tr&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000;border-bottom: 2px solid #000; width: 160px;padding: 10px;border-top: 2px solid #000;border-left: 2px solid #000;&quot;
+            &gt;
+              境内运输工具名称
+            &lt;/td&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000;border-bottom: 2px solid #000; width: 160px;padding: 10px;border-top: 2px solid #000&quot;
+            &gt;
+              提(运)单号
+            &lt;/td&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000;border-bottom: 2px solid #000; width: 160px;;padding: 10px;border-top: 2px solid #000&quot;
+            &gt;
+              集装箱号
+            &lt;/td&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000;border-bottom: 2px solid #000; width: 350px;padding: 10px;border-top: 2px solid #000&quot;
+            &gt;
+              货　　名
+            &lt;/td&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000;border-bottom: 2px solid #000; width: 110px;padding: 10px;border-top: 2px solid #000&quot;
+            &gt;
+              件　　数
+            &lt;/td&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000;border-bottom: 2px solid #000; width: 110px;padding: 10px;border-top: 2px solid #000&quot;
+            &gt;
+              重　　量
+            &lt;/td&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000;border-bottom: 2px solid #000; width: 160px;padding: 10px;border-top: 2px solid #000&quot;
+            &gt;
+              电子关锁号
+            &lt;/td&gt;
+            &lt;td
+              align=&quot;center&quot;
+              style=&quot;border-right: 2px solid #000; border-bottom: 2px solid #000; width: 70px;z-index: 10000;padding: 10px;border-top: 2px solid #000&quot;
+            &gt;
+              个数
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          
+        &lt;/thead&gt;
+        &lt;tbody style=&quot;text-align: center&quot;&gt;
+          &lt;tr v-for=&quot;(item, index) in containerDatas.data&quot; :key=&quot;index&quot;&gt;
+            &lt;td style=&quot;border-right: 2px solid #000;border-left: 2px solid #000;vertical-align: top;padding-top:10px;padding-bottom:10px&quot;&gt;{{ item.transName }}&lt;/td&gt;
+            &lt;td style=&quot;border-right: 2px solid #000;vertical-align: top;padding-top:10px;padding-bottom:10px&quot;&gt;{{ item.billNo }}&lt;/td&gt;
+            &lt;td style=&quot;border-right: 2px solid #000; vertical-align: top;padding-top:10px;padding-bottom:10px&quot;&gt;{{ item.contaNo }}&lt;/td&gt;
+      
+            &lt;td style=&quot;border-right: 2px solid #000; vertical-align: top;padding-top:10px;padding-bottom:10px&quot;&gt;{{ item.packNo }}&lt;/td&gt;
+            &lt;td style=&quot;border-right: 2px solid #000; vertical-align: top;padding-top:10px;padding-bottom:10px&quot;&gt;{{ item.grossWt }}&lt;/td&gt;
+            &lt;td style=&quot;border-right: 2px solid #000; vertical-align: top;padding-top:10px;padding-bottom:10px&quot;&gt;{{ item.sealNo }}&lt;/td&gt;
+            &lt;td style=&quot;border-right: 2px solid #000;vertical-align: top;padding-top:10px;padding-bottom:10px&quot;&gt;{{ item.sealNum }}&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;!-- &lt;tr style=&quot;page-break-after: always;&quot;&gt;
+                &lt;td&gt;表格内容3&lt;/td&gt;
+                &lt;td&gt;表格内容&lt;/td&gt;
+            &lt;/tr&gt; --&gt;
+        &lt;/tbody&gt;
+        &lt;tfoot
+          style=&quot;display: table-footer-group; font-weight: bold;z-index: 10000;background: #ddd;&quot;
+        &gt;
+          &lt;tr&gt;
+            &lt;td
+              colspan=&quot;2&quot;
+              align=&quot;center&quot;
+              style=&quot; border-top: 2px solid #000;border-right:  2px solid #000; border-bottom: 2px solid #000; z-index: 10000;border-left: 2px solid #000;&quot;
+            &gt;
+              &lt;div style=&quot;padding: 10px;&quot;&gt;
+                &lt;div style=&quot;text-align: center; padding-bottom: 10px;&quot;&gt;
+                  以上申报属实,并承担法律责任,
+                &lt;/div&gt;
+                &lt;div style=&quot;padding-bottom: 10px;text-align:left;padding-left: 20px&quot;&gt;
+                  保证在　　　　日内将上述货物完整
+                &lt;/div&gt;
+                &lt;div style=&quot;text-align:left;padding-left: 20px; padding-bottom: 10px;&quot;&gt;
+                  运抵　　　　　　　　海关。
+                &lt;/div&gt;
+                &lt;div style=&quot;text-align:left;padding-left: 100px;padding-bottom: 10px;&quot;&gt;
+                  申报人:
+                &lt;/div&gt;
+                &lt;div style=&quot;text-align:left;padding-left: 120px; padding-bottom: 10px;top:10px;position: relative;&quot;&gt;
+                  年　　 月 　　 日
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td
+              colspan=&quot;3&quot;
+              align=&quot;center&quot;
+              style=&quot;border-top: 2px solid #000;border-right:  2px solid #000; border-bottom: 2px solid #000; z-index: 10000;&quot;
+            &gt;
+              &lt;div style=&quot;padding: 10px;&quot;&gt;
+                &lt;div style=&quot;text-align: center; padding-bottom: 10px;&quot;&gt;
+                  进境地海关批注:
+                &lt;/div&gt;
+                &lt;div
+                  style=&quot;text-align: left; left: 80px; position: relative; padding-bottom: 40px;top:40px;&quot;
+                &gt;
+                  经办关员:
+                &lt;/div&gt;
+                &lt;div
+                  style=&quot;padding-left: 175px; position: relative; padding-bottom: 10px;&quot;
+                &gt;
+                  (盖章)
+                &lt;/div&gt;
+                &lt;div
+                  style=&quot;padding-left: 175px; position: relative; padding-bottom: 10px;top:5px&quot;
+                &gt;
+                  年　　 月 　　 日
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td
+              colspan=&quot;3&quot;
+              align=&quot;center&quot;
+              style=&quot;border-top: 2px solid #000; border-bottom: 2px solid #000; z-index: 10000;border-right: 2px solid #000;&quot;
+            &gt;
+              &lt;div style=&quot;padding: 10px;&quot;&gt;
+                &lt;div style=&quot;text-align: center; padding-bottom: 10px;&quot;&gt;
+                  指运地海关批注:
+                &lt;/div&gt;
+                &lt;div
+                  style=&quot;text-align: left; left: 20px; position: relative; padding-bottom: 40px;top:40px;&quot;
+                &gt;
+                  经办关员:
+                &lt;/div&gt;
+                &lt;div
+                  style=&quot;padding-left: 80px; position: relative; padding-bottom: 10px;&quot;
+                &gt;
+                  (盖章)
+                &lt;/div&gt;
+                &lt;div
+                  style=&quot;padding-left: 100px; position: relative; padding-bottom: 10px;top:5px&quot;
+                &gt;
+                  年　　 月 　　 日
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tfoot&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: &quot;TransitPrinting&quot;,
+  props: [&quot;containerDatas&quot;, &quot;detailData&quot;, &quot;ladingLength&quot;],
+  data() {
+    return {
+      printObj: {
+        id: &quot;printeDetail&quot;,
+        popTitle: &quot;&quot;
+      },
+    };
+  },
+  methods: {
+    // 打印，非手动触发打印
+    printing() {
+      document.getElementById(&quot;printeBtn&quot;).click();
+    },
+    closePrinte() {
+      this.$emit(&quot;closePrinte&quot;);
+    }
+  }
+};
+&lt;/script&gt;
+
+</code></pre></div></details></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/longweixia/node/Interview/2.html" class="prev">
+        详细
+      </a></span> <span class="next"><a href="/longweixia/business/business/2.html">
+        html基础(2)
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/longweixia/assets/js/app.30853e2a.js" defer></script><script src="/longweixia/assets/js/2.19b4ab8a.js" defer></script><script src="/longweixia/assets/js/17.d109ff42.js" defer></script>
+  </body>
+</html>
