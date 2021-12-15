@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>1. 什么是后台权限 | 资料库</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+    <link rel="icon" href="/longweixia/favicon.ico">
+    <meta name="description" content="10点读书">
+    
+    <link rel="preload" href="/longweixia/assets/css/0.styles.8a8416e6.css" as="style"><link rel="preload" href="/longweixia/assets/js/app.5d9c4941.js" as="script"><link rel="preload" href="/longweixia/assets/js/2.19b4ab8a.js" as="script"><link rel="preload" href="/longweixia/assets/js/48.905e25b7.js" as="script"><link rel="prefetch" href="/longweixia/assets/js/10.17389278.js"><link rel="prefetch" href="/longweixia/assets/js/11.38738b95.js"><link rel="prefetch" href="/longweixia/assets/js/12.fbdcdcf1.js"><link rel="prefetch" href="/longweixia/assets/js/13.90bc15ee.js"><link rel="prefetch" href="/longweixia/assets/js/14.7b410e4e.js"><link rel="prefetch" href="/longweixia/assets/js/15.44426049.js"><link rel="prefetch" href="/longweixia/assets/js/16.581eff27.js"><link rel="prefetch" href="/longweixia/assets/js/17.cf6e9f3a.js"><link rel="prefetch" href="/longweixia/assets/js/18.6657811b.js"><link rel="prefetch" href="/longweixia/assets/js/19.0eb1f016.js"><link rel="prefetch" href="/longweixia/assets/js/20.95ecfae9.js"><link rel="prefetch" href="/longweixia/assets/js/21.b493327a.js"><link rel="prefetch" href="/longweixia/assets/js/22.602ebe94.js"><link rel="prefetch" href="/longweixia/assets/js/23.2ca1aaba.js"><link rel="prefetch" href="/longweixia/assets/js/24.7c8ec288.js"><link rel="prefetch" href="/longweixia/assets/js/25.e0f0715a.js"><link rel="prefetch" href="/longweixia/assets/js/26.f5c106a0.js"><link rel="prefetch" href="/longweixia/assets/js/27.db019e44.js"><link rel="prefetch" href="/longweixia/assets/js/28.113fc19e.js"><link rel="prefetch" href="/longweixia/assets/js/29.fb4c922f.js"><link rel="prefetch" href="/longweixia/assets/js/3.6614d8fb.js"><link rel="prefetch" href="/longweixia/assets/js/30.03a76239.js"><link rel="prefetch" href="/longweixia/assets/js/31.57481841.js"><link rel="prefetch" href="/longweixia/assets/js/32.af2bd53e.js"><link rel="prefetch" href="/longweixia/assets/js/33.1d2874e8.js"><link rel="prefetch" href="/longweixia/assets/js/34.262070ca.js"><link rel="prefetch" href="/longweixia/assets/js/35.607788be.js"><link rel="prefetch" href="/longweixia/assets/js/36.81c5024f.js"><link rel="prefetch" href="/longweixia/assets/js/37.c67ed549.js"><link rel="prefetch" href="/longweixia/assets/js/38.77987057.js"><link rel="prefetch" href="/longweixia/assets/js/39.e4c554d6.js"><link rel="prefetch" href="/longweixia/assets/js/4.97a4a53a.js"><link rel="prefetch" href="/longweixia/assets/js/40.b92aa7b7.js"><link rel="prefetch" href="/longweixia/assets/js/41.10d00b34.js"><link rel="prefetch" href="/longweixia/assets/js/42.d1c1060a.js"><link rel="prefetch" href="/longweixia/assets/js/43.f8e83df1.js"><link rel="prefetch" href="/longweixia/assets/js/44.8e6c50cf.js"><link rel="prefetch" href="/longweixia/assets/js/45.e3e81527.js"><link rel="prefetch" href="/longweixia/assets/js/46.a06387a5.js"><link rel="prefetch" href="/longweixia/assets/js/47.fba16ce3.js"><link rel="prefetch" href="/longweixia/assets/js/49.2763efa3.js"><link rel="prefetch" href="/longweixia/assets/js/5.e7ca5135.js"><link rel="prefetch" href="/longweixia/assets/js/50.ffe0192f.js"><link rel="prefetch" href="/longweixia/assets/js/51.7882503e.js"><link rel="prefetch" href="/longweixia/assets/js/52.91d614b4.js"><link rel="prefetch" href="/longweixia/assets/js/53.8393cb8e.js"><link rel="prefetch" href="/longweixia/assets/js/54.bc7c6bdb.js"><link rel="prefetch" href="/longweixia/assets/js/55.fcd70da6.js"><link rel="prefetch" href="/longweixia/assets/js/56.766af4ea.js"><link rel="prefetch" href="/longweixia/assets/js/57.7edff36b.js"><link rel="prefetch" href="/longweixia/assets/js/58.dab5e63a.js"><link rel="prefetch" href="/longweixia/assets/js/59.6f4afbf0.js"><link rel="prefetch" href="/longweixia/assets/js/6.a797012b.js"><link rel="prefetch" href="/longweixia/assets/js/60.bade2cd0.js"><link rel="prefetch" href="/longweixia/assets/js/61.49e8ada0.js"><link rel="prefetch" href="/longweixia/assets/js/62.c53959b0.js"><link rel="prefetch" href="/longweixia/assets/js/63.24a4f4a9.js"><link rel="prefetch" href="/longweixia/assets/js/64.599ce92b.js"><link rel="prefetch" href="/longweixia/assets/js/65.bfa41ce9.js"><link rel="prefetch" href="/longweixia/assets/js/66.edd6b8d1.js"><link rel="prefetch" href="/longweixia/assets/js/67.8defd585.js"><link rel="prefetch" href="/longweixia/assets/js/68.05343142.js"><link rel="prefetch" href="/longweixia/assets/js/69.2567579c.js"><link rel="prefetch" href="/longweixia/assets/js/7.55c60d55.js"><link rel="prefetch" href="/longweixia/assets/js/70.483dd7c5.js"><link rel="prefetch" href="/longweixia/assets/js/71.7bd77371.js"><link rel="prefetch" href="/longweixia/assets/js/72.7ce38d47.js"><link rel="prefetch" href="/longweixia/assets/js/73.13c0ce04.js"><link rel="prefetch" href="/longweixia/assets/js/74.c56aa9ca.js"><link rel="prefetch" href="/longweixia/assets/js/75.f069fb7c.js"><link rel="prefetch" href="/longweixia/assets/js/76.677c8e79.js"><link rel="prefetch" href="/longweixia/assets/js/77.2c2a45bb.js"><link rel="prefetch" href="/longweixia/assets/js/78.419381e3.js"><link rel="prefetch" href="/longweixia/assets/js/79.666d4b65.js"><link rel="prefetch" href="/longweixia/assets/js/8.cce1d689.js"><link rel="prefetch" href="/longweixia/assets/js/80.97839adc.js"><link rel="prefetch" href="/longweixia/assets/js/81.73c7951f.js"><link rel="prefetch" href="/longweixia/assets/js/82.5528309c.js"><link rel="prefetch" href="/longweixia/assets/js/83.392c935c.js"><link rel="prefetch" href="/longweixia/assets/js/84.43bec4e1.js"><link rel="prefetch" href="/longweixia/assets/js/85.65eb56fc.js"><link rel="prefetch" href="/longweixia/assets/js/86.3d9949d7.js"><link rel="prefetch" href="/longweixia/assets/js/87.57a052f1.js"><link rel="prefetch" href="/longweixia/assets/js/9.a875aa21.js">
+    <link rel="stylesheet" href="/longweixia/assets/css/0.styles.8a8416e6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/longweixia/" class="home-link router-link-active"><!----> <span class="site-name">资料库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/longweixia/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/longweixia/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/longweixia/js/" class="nav-link">
+  JS
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/longweixia/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/longweixia/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/longweixia/js/" class="nav-link">
+  JS
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/html/" class="sidebar-heading clickable"><span>1. HTML</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/css/" class="sidebar-heading clickable"><span>2. CSS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/js/" class="sidebar-heading clickable"><span>3. JS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/vue/" class="sidebar-heading clickable"><span>4. Vue</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/ts/" class="sidebar-heading clickable"><span>5. TS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/node/" class="sidebar-heading clickable"><span>6. Node</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/business/" class="sidebar-heading clickable"><span>7. 业务</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/tools/" class="sidebar-heading clickable"><span>8. 工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/browser/" class="sidebar-heading clickable"><span>9. 浏览器</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/vuePress/" class="sidebar-heading clickable"><span>10. vuePress</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/xcx/" class="sidebar-heading clickable"><span>11. 小程序</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/longweixia/note/" class="sidebar-heading clickable router-link-active open"><span>12. 总结</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/longweixia/note/pit.html" aria-current="page" class="active sidebar-link">总结--2021/02/22</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/longweixia/note/pit.html#_1-什么是后台权限" class="sidebar-link">1. 什么是后台权限</a></li><li class="sidebar-sub-header"><a href="/longweixia/note/pit.html#_2-权限划分" class="sidebar-link">2. 权限划分</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/longweixia/note/pit.html#_2-1-页面权限" class="sidebar-link">2-1. 页面权限</a></li><li class="sidebar-sub-header"><a href="/longweixia/note/pit.html#_2-2-接口权限" class="sidebar-link">2-2.接口权限</a></li></ul></li><li class="sidebar-sub-header"><a href="/longweixia/note/pit.html#_3-具体实现-路由权限" class="sidebar-link">3. 具体实现-路由权限</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/longweixia/note/pit.html#_3-1-beforeeach路由拦截" class="sidebar-link">3-1. beforeEach路由拦截</a></li><li class="sidebar-sub-header"><a href="/longweixia/note/pit.html#_3-2-addroutes动态注册路由" class="sidebar-link">3-2. addRoutes动态注册路由</a></li></ul></li></ul></li><li><a href="/longweixia/note/guide.html" class="sidebar-link">使用指南</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="_1-什么是后台权限"><a href="#_1-什么是后台权限" class="header-anchor">#</a> 1. 什么是后台权限</h2> <p>常见的模块设计是基于 <code>RBAC</code>（Role-based Access Control）权限访问控制的,就构造成“用户-角色-权限”的授权模型。 RBAC英文意思是：基于角色的访问控制。</p> <ul><li>也就是说一个用户可以有多个角色</li> <li>一个角色可以有多个权限，通过将角色和权限分离开来提高设计的可扩展性</li> <li>通常一个用户有多个角色，一个角色也会属于多个用户（多对多）</li> <li>一个角色有多个权限，一个权限也会属于多个角色（多对多）。</li></ul> <h2 id="_2-权限划分"><a href="#_2-权限划分" class="header-anchor">#</a> 2. 权限划分</h2> <blockquote><p>在实际项目中，权限主要分为：</p></blockquote> <ul><li>页面级（路由级）</li> <li>接口级</li> <li>菜单级</li> <li>数据级</li></ul> <h3 id="_2-1-页面权限"><a href="#_2-1-页面权限" class="header-anchor">#</a> 2-1. 页面权限</h3> <blockquote><p>我们的项目是通过左侧的菜单控制页面权限的，左侧的菜单是调用接口返回的，不同的用户登录获取的菜单不一样，菜单是通过另一个系统进行配置的。</p></blockquote> <ul><li>显示当前用户能访问的权限内菜单，如果用户通过URL进行强制访问，则会直接进入404</li></ul> <h4 id="_1-创建路由表"><a href="#_1-创建路由表" class="header-anchor">#</a> （1）. 创建路由表</h4> <blockquote><p>路由中有部分是不用做权限控制的，如： 登录注册，404，需要将它们写到默认路由表中</p></blockquote> <ul><li>这里有一个需要非常注意的地方就是 404 页面一定要最后加载，如果放在默认路由一同声明了404，后面的所以页面都会被拦截到404，</li></ul> <h4 id="_2-对路由进行拦截"><a href="#_2-对路由进行拦截" class="header-anchor">#</a> （2）. 对路由进行拦截</h4> <details><summary>main.js路由拦截</summary> <div class="language- extra-class"><pre class="language-text"><code>/**
+ * 路径白名单
+ *
+ * 任意场景都能无阻碍访问
+ */
+// 1. 建立白名单
+const whiteRoutePath = [&quot;/login&quot;, &quot;/forget&quot;, &quot;/403&quot;, &quot;/404&quot;, &quot;/500&quot;];
+// 2. 路由拦截
+router.beforeEach((to, from, next) =&gt; {
+  // 3. 获取该账号是否审核通过的标识，0 - 未通过， 1 - 通过
+  let state = localStorage.getItem(&quot;state&quot;);
+  // 4. 判断路由参数是否携带了token信息，如果携带了，就保存token
+  // 这里路由携带token的目的是因为，同时有多个项目，各个项目相互跳转携带token跳到另外一个项目就不用再登录了
+  if (to.query.token) {
+    Auth.setToken(to.query.token)
+  }
+  // 5. 有token的时候，才会走路由权限表的路由
+  if (Auth.getToken()) {
+    if (to.path === &quot;/login&quot; || to.path === &quot;/&quot;) {
+      next()
+    } else {
+      // 7. 判断用户id是否为空,注意！由于是放在vueX中的，刷新后id会丢失 
+      if (store.getters.user.id === &quot;&quot;) {
+        // 9. 判断账号是否审核通过
+        if (state == 1) {
+          // 10. 走FetchUserData函数，获取项目的信息，包括项目的名称，路由，项目，id和对应的路由表
+          store.dispatch(&quot;FetchUserData&quot;).then(apps =&gt; {
+            const appTarget = to.query.appcode ? to.query.appcode : &quot;&quot;
+            // 14 . InitPermissionByApps存储路由表和权限表
+            store.dispatch(&quot;InitPermissionByApps&quot;, {
+              apps,
+              appTarget
+            }).then(() =&gt; {
+              next()
+
+            })
+
+          }).catch(error =&gt; {
+            Message.error(error.message)
+            Auth.removeToken()
+            if (error &amp;&amp; error.source === &quot;action&quot;) {
+              next({
+                path: `/${error.redirect}`
+              })
+            } else {
+              //跳转到官网的登录页
+              next({
+                path: &quot;/login&quot;
+              })
+            }
+          })
+        } else {
+          next()
+        }
+
+      } else {
+          // 8. 如果id存在（存id的过程在第9步的FetchUserData函数中，说明此时已经走了一遍全流程了），说明用户登录，此时菜单也全部显示了，点击哪个菜单直接就跳转过去
+        next();
+      }
+    }
+  } else {
+    // 6. 没有token只能走白名单的路由
+    if (whiteRoutePath.indexOf(to.path) &gt; -1) {
+      next()
+    } else {
+      next({
+        path: &quot;/login&quot;
+      });
+    }
+  }
+  //  next()
+});
+</code></pre></div></details> <p><strong>FetchUserData</strong>函数：</p> <details><summary>设置用户信息</summary> <div class="language- extra-class"><pre class="language-text"><code>FetchUserData({
+      commit
+    }) {
+      return new Promise((resolve, reject) =&gt; {
+        let urlhost = window.location.hostname
+        // 11. 开发环境下，我们也可以通过修改urlhost，来获取测试环境的数据
+        if (process.env.NODE_ENV == &quot;development&quot;) {
+          urlhost = 'apollo.gvtfat.com' //  测试
+        // urlhost = 'apollo.gvtdev.com' //  开发环境
+        }
+        fetchUserByUrl(urlhost).then(response =&gt; {
+          // 12. 执行一系列的存储用户数据的操作
+          // 用户数据源
+          const userinfo = response.data;
+        
+            // mutation 用户 ID
+            commit(&quot;SET_ID&quot;, userinfo.user.id);
+            commit(&quot;SET_SYSTEM&quot;, userinfo.user.system);
+
+            // mutation 用户 名称
+            commit(&quot;SET_NAME&quot;, userinfo.user.name);
+
+            // mutation 商户code
+            if (userinfo.tenant &amp;&amp; userinfo.tenant.code) {
+              commit(&quot;SET_TENANT_CODE&quot;, userinfo.tenant.code)
+            }
+
+            // mutation 商户id
+            if (userinfo.tenant &amp;&amp; userinfo.tenant.id) {
+              commit(&quot;SET_TENANT_ID&quot;, userinfo.tenant.id);
+            }
+
+            // mutation 商户名称
+            if (userinfo.tenant &amp;&amp; userinfo.tenant.name) {
+              commit(&quot;SET_TENANT_NAME&quot;, userinfo.tenant.name);
+            }
+
+            if (userinfo.employee &amp;&amp; userinfo.employee.code) {
+              commit(&quot;SET_TENANT_CODE&quot;, userinfo.employee.code)
+            }
+
+            if (userinfo.employee &amp;&amp; userinfo.employee.tenantId) {
+              commit(&quot;SET_TENANT_ID&quot;, userinfo.employee.tenantId);
+
+            }
+            // mutation logo
+            if (userinfo.oem &amp;&amp; userinfo.oem.companyLogoUrl) {
+              commit('SET_LOGO', userinfo.oem.companyLogoUrl);
+            }
+            commit('USER_TYPE', userinfo.user.userType)
+            // mutation 账户
+            commit(&quot;SET_USERNAME&quot;, userinfo.user.userName);
+
+            // mutation 商户 or !商户
+            userinfo.user.system === 1 &amp;&amp; commit(&quot;IS_NOT_TENANT&quot;);
+          } 
+
+          // resolve apps
+          // 13. apps是当前打开项目的信息，包括项目的名称，路由，项目，id和对应的路由表
+          resolve(userinfo.apps);
+
+        }).catch(error =&gt; {
+          reject(error)
+        })
+      })
+    }
+</code></pre></div></details> <h3 id="_2-2-接口权限"><a href="#_2-2-接口权限" class="header-anchor">#</a> 2-2.接口权限</h3> <blockquote><p>接口权限是放到后端去做的，当该账号没有该接口的权限时，就直接报错。</p></blockquote> <ul><li>建立一个权限表，一个用户表</li> <li>给用户分配权限</li></ul> <h2 id="_3-具体实现-路由权限"><a href="#_3-具体实现-路由权限" class="header-anchor">#</a> 3. 具体实现-路由权限</h2> <h3 id="_3-1-beforeeach路由拦截"><a href="#_3-1-beforeeach路由拦截" class="header-anchor">#</a> 3-1. beforeEach路由拦截</h3> <p>注册全部路由，在router.beforeEach中即进入路由前进行判断，如果进入的路由是否有权限，没有的话手动重定向到某个静态路由（不需要权限就能进入的页面，即任何用户都能进入的页面，如404页或首页）</p> <p>我们在router.beforeEach判断是否有权限进入，需要有三点：</p> <ul><li>在路由配置中做标识，告知该路由需要的权限</li> <li>需要一处地方记录该用户所拥有的权限信息</li> <li>在router.beforeEach结合第1点和第2点进行判断</li></ul> <h4 id="_3-1-1-路由配置中做标识"><a href="#_3-1-1-路由配置中做标识" class="header-anchor">#</a> 3-1-1. 路由配置中做标识</h4> <ul><li>项目的权限通过ID来表示，即每个权限，用一个ID值来表示。</li> <li>通过路由配置的props项来做标识，authId值表示权限对应的ID值。</li></ul> <details><summary>展开代码</summary> <div class="language- extra-class"><pre class="language-text"><code>import Vue from 'vue';
+import Router from 'vue-router';
+
+import home from 'home.vue';
+import exam1 from 'example1.vue';
+import exam2 from 'example2.vue';
+
+Vue.use(Router);
+
+const routes = [
+    {
+        path: '/',
+        component: home
+    },
+    {
+        path: '/exam1',
+        component: exam1,
+        props: {
+            authId: '100' // 路由id，通常这个id会很长
+        }
+    },
+    {
+        path: '/exam2',
+        component: exam2,
+        props: {
+            authId: '200'
+        }
+    }
+];
+
+const router = new Router({
+    routes
+});
+
+export default router;
+
+</code></pre></div></details> <p>上面是设置路由的主文件，从中我们看到，两个页面分别有两个不同的权限ID值，要能够进入页面，就得拥有这两个权限。</p> <h4 id="_3-1-2-存储权限信息"><a href="#_3-1-2-存储权限信息" class="header-anchor">#</a> 3-1-2. 存储权限信息</h4> <p>我们需要找个地方来存储用户的权限信息，如果对用户的权限信息是保存在sessionStorage、localStorage、cookie或url中的话，刷新后还能继续能拿到这些值，那么再根据这些值控制路由访问，这是没多大问题的。但是，这种重要的信息就暴露在外面？万一别人恶心修改了，把自己不能访问的权限改成可以访问呢？</p> <p>因此上述方法是不建议的。</p> <p>更合理的方法是存在vuex中，那么存在这里的话，就会面临刷新页面了，vuex的信息也会丢失的问题。</p> <p>为了解决这个问题，我们同样需要保存一些信息到持久化的一个地方中，但是与上面不同的是，我们不要直接保存权限信息，而是保存一些能发请求获取权限信息的信息，常见的如用户id等。刷新后，根据保存的这些信息发请求重新获取权限信息并存储。</p> <p>如这里的例子我就设置<code>sessionStorage.setItem('userId', 1012313);</code></p> <p><strong>以下为存储权限信息的vuex内容：</strong></p> <details><summary>展开代码</summary> <div class="language- extra-class"><pre class="language-text"><code>// authority.js
+
+import * as types from '../mutation-types';
+
+// state
+const state = {
+    // 权限id值数组，null为初始化情况，如果为[]代表该用户没有任何权限
+    rights: null
+};
+
+// getters
+const getters = {
+    rights: state =&gt; state.rights
+};
+
+// actions
+const actions = {
+    /**
+     * 设置用户访问权限
+     */
+    setRights ({ commit }, value) {
+        commit(types.SET_RIGHTS, value);
+    }
+};
+
+// mutations
+const mutations = {
+    [types.SET_RIGHTS] (state, value) {
+        state.rights = value;
+    }
+};
+
+export default {
+    state,
+    getters,
+    actions,
+    mutations
+};
+
+</code></pre></div></details> <p>这里值得一提的是，为什么rights默认值是null而不是[]，原因是用来区分是初始化状态还是真的无任何权限状态。这个有使用场景，特别是针对刷新页面。</p> <p>就是当你目前在一个非权限路由页面上时，如果你刷新了页面，用户的鉴权还有效，理应还是停留在这个动态路由的页面。</p> <p>那你怎么判断现在是由于刷新了页面呢，就是通过判断rights是null而不是[]， 如果rights初始值本身就是[]的话，这是无法判断出来的。</p> <p>那么为null是有两种情况的：</p> <p>从空tab或别的网站进入到你的网站（如输入url、sso登录跳转过来）；
+刷新页面
+所以为了进一步区分是刷新行为，则需进一步通过判断sessionStorage里有没有登陆后存储的userId信息，因为如果userId存在了代表登录了，登录了就会进行权限的设置，就自然rights会有值，就算没权限也会是个[]</p> <p>上面讨论的这些判断行为，都会在router.beforeEach中体现应用到。</p> <h4 id="_3-1-3-还是在路由主文件中-在全局前置守卫中做判断。"><a href="#_3-1-3-还是在路由主文件中-在全局前置守卫中做判断。" class="header-anchor">#</a> 3-1-3. 还是在路由主文件中，在全局前置守卫中做判断。</h4> <details><summary>展开代码</summary> <div class="language- extra-class"><pre class="language-text"><code>import store from '/store';
+
+/**
+ * 检查进入的路由是否需要权限控制
+ * @param {Object} to - 即将进入的路由对象
+ * @param {Object} from - 来自的路由对象
+ * @param {Function} next - 路由跳转的函数
+ */
+const verifyRouteAuthority = async (to, from, next) =&gt; {
+    // 获取路由的props下的authId信息
+    const defaultConfig = to.matched[to.matched.length - 1].props.default;  //获取最后一个路由（即子路由的）的默认配置对象，也就是当前要跳转的路由的信息
+    const authId = (defaultConfig &amp;&amp; defaultConfig.authId) ? defaultConfig.authId : null;
+
+    // authId存在，表示需要权限控制的页面
+    if (authId) {
+        // 获取vuex中存储权限信息的模块，authority为vueX的该模块名
+        const authorityState = store.state.authority;
+        // 为null的场景： 从空tab或别的网站进入到网站（如输入url、sso登录跳转过来）；刷新页面；
+        if (authorityState.rights === null) {
+            const userId = sessionStorage.getItem('userId');
+            //  如果是刷新了导致存储的权限路由配置信息没了，则要重新请求获取权限，判断刷新页是否拥有权限
+            if (userId) {
+                // 重新获取权限，以下为例子
+                const res = await loginService.getRights();
+                store.dispatch('setRights', res);
+            } else { // 如果是非当页刷新，则跳转到首页
+                next({ path: '/' });
+                return true;
+            }
+        }
+
+        // 如果是要进行权限控制的页面，判断是否有对应权限，无则跳转到首页
+        if (!authorityState.rights.includes(authId)) {
+            next({ path: '/' });
+            return true;
+        }
+    }
+
+    return false;
+};
+
+/**
+ * 能进入路由页面的处理
+ */
+const enterRoute = async (to, from, next) =&gt; {
+    // 进行权限控制校验
+    const res = await verifyRouteAuthority(to, from, next);
+    // 如果通不过检验已进行内部跳转，则退出该流程
+    if (res) {
+        return;
+    }
+
+    // 进行登录验证以及获取必要的用户信息等操作
+    // ...
+};
+
+router.beforeEach((to, from, next) =&gt; {
+    
+    // matched是路由记录，包括父路由和子路由组成的数组(如一级路由和二级路由)
+    // 一个路由匹配到的所有路由记录会暴露为 $route 对象的 $route.matched 数组。
+
+    // 无匹配路由
+    if (to.matched.length === 0) {
+        // 跳转到首页 添加query，避免手动跳转丢失参数，例如token
+        next({
+            path: '/',
+            query: to.query
+        });
+        return;
+    }
+    enterRoute(to, from, next);
+});
+</code></pre></div></details> <h4 id="_3-1-4-退出清空权限信息"><a href="#_3-1-4-退出清空权限信息" class="header-anchor">#</a> 3-1-4. 退出清空权限信息</h4> <p>完整的一个方案，别忘了还要针对登出，清空权限信息这步。也很简单，清空，意味着把rights重新置为null，因此执行<code>store.dispatch('setRights', null);</code>即可</p> <h3 id="_3-2-addroutes动态注册路由"><a href="#_3-2-addroutes动态注册路由" class="header-anchor">#</a> 3-2. addRoutes动态注册路由</h3> <blockquote><p>addRoutes函数就是用来追加路由注册的。最简单的思路是，当用户登录到系统后，就根据用户的权限来追加注册他能访问的路由。</p></blockquote> <p><strong>一套完整的方案，会有以下几个方面你需要考虑的</strong></p> <ul><li>切换用户后，权限发生变化，注册的路由也应该要变化，理想情况是删除已注册的动态路由（旧用户的路由信息），然后才重新追加新路由。</li> <li>刷新页面时，如果用户鉴权还通过，那么其权限所允许的页面应该还能继续访问</li> <li>登出系统，即用户退出，需要清除已注册路由</li></ul> <p><strong>针对问题一</strong>
+目前vue-router不提供删除已注册路由的api，只有一个addRoutes可以动态改变注册路由，其接受一个参数，是个路由配置的数组。</p> <p>那么如果不做处理，直接采用addRoutes追加注册，就会可能发生追加重复路由的情况</p> <p>例如用户1拥有 a,b 权限，用户2拥有 a,c 权限。当用户1登录上了，此时路由已注册 a,b 权限对应的路由，然后用户1退出切换到用户2，通过addRoutes把 a,c 权限对应的路由追加注册了，这时候，就会重复注册了a路由，在控制台中会有警告信息，并且原本不属于用户2的b权限也加入到了用户2路由了。</p> <p>其实如果路由都是完全一样的话，不会影响到实际应用，用户也无是无感知的，只是路由变得累赘。但是如果假设同name的路由却是对应不同的页面路径，这时候我就会有问题了。</p> <p>因此，我们需要找一个方案，解决可能添加重复路由的问题。</p> <blockquote><p>有不少资料会让你在切换用户时，在跳转到登录界面时，刷新一下页面，就会变回整个网站初始化的情况，即路由也重新初始化实例，这样登录后就再用addRoutes追加路由就好。</p></blockquote> <p>其实上述方案不失为一个好方案，如果你不介意会刷新一下页面的话。甚至你的登录界面就是跟系统不在一个单页面应用的话就更加不用手动刷新了（如有专门的单点登录平台），自然就能在登录后重新进入系统初始化了。</p> <p><strong>要说缺点的话：</strong></p> <ul><li>要重新刷新页面，如果系统网站本身初始化加载很慢的话，那么用户体验很差。</li> <li>如果你的系统权限方面比较复杂，像我开发的系统，权限不仅仅在用户之间，在用户里，不同任务下也有不同权限，这时，就不能用这种方式了，因为切换任务并不会要重新登录</li></ul> <p>如果你不喜欢上面这个简单的方案的话，不妨继续往下看</p> <details><summary>展开代码</summary> <div class="language- extra-class"><pre class="language-text"><code>import Vue from 'vue';
+import Router from 'vue-router';
+Vue.use(Router);
+
+// 创建路由实例的函数
+// 这里的staticRoutes表示你系统的静态路由
+const createRouter = () =&gt; {
+    return new Router({
+        routes: staticRoutes
+    });
+};
+/**
+ * 重置注册的路由导航map
+ * 主要是为了通过addRoutes方法动态注入新路由时，避免重复注册相同name路由
+ */
+const resetRouter = () =&gt; {
+    const newRouter = createRouter();
+    router &amp;&amp; (router.matcher = newRouter.matcher);
+};
+
+// 这是伴随vue app实例化的初始化路由实例
+const router = createRouter();
+
+export { resetRouter };
+export default router;
+</code></pre></div></details> <p>上面是创建路由的一份代码，除了resetRouter，其余部分跟你原本创建路由的代码并无什么不同。
+而resetRouter的作用就是解决重复问题的关键（router.matcher = newRouter.matcher），这句相当于重置了路由映射关系，抹去了已注册的路由映射关系，跟新的路由实例的映射一样（添加路由前，把路由替换为初始化的静态路由）。</p> <p>因此，在每次通过addRoutes追加注册路由前，都要使用resetRouter方法来重置一下路由映射，再追加。但是这样仍然是不能百分百避免重复问题，为什么呢？</p> <p><strong>以上述代码为例子，如果staticRoutes中有一个路由是拥有children子路由的，如：</strong></p><details><summary>展开代码</summary><p></p> <div class="language- extra-class"><pre class="language-text"><code>//假设原来就有这个路由，现在又要添加下面的子路由，会有问题，导致重复添加
+{
+    path: '/tsp',
+    name: 'TSP',
+    component: TSP,
+    children: [
+        {
+            path: 'analysis',
+            name: 'analysis',
+            component: Analysis
+        }
+    ]
+}
+</code></pre></div></details> <p>然后你要追加的路由刚好就是在这children中的子路由的话，你就需要追加整个name为TSP的路由了，这时就会发生重复追加已存在的TSP和Analysis的路由了。</p> <p>为了避免该问题，人为的约定，静态路由staticRoutes中不能是有可能被追加路由（包含子孙路由）的路由。</p> <p>真要发生上面要追加在子路由的情况，那么把该TSP路由在初始化路由实例后，然后手动追加一次，假装是静态路由，这样在使用resetRouter重置后就不包含TSP路由了，然后再追加这个TSP路由就不会警告重复了。</p> <p><strong>针对问题二</strong>
+这个问题，我们在第一个方案中也说过了，关于刷新带来的问题以及思考。</p> <p>思路我们有了，那么在代码的具体什么时机进行操作呢？由于需要进行异步请求，所以不适宜在路由实例初始化时进行，我们在beforeEach中做处理，以下为例子（具体说明是注释中）：</p> <p>先看vuex中定义存储权限信息的关键代码
+</p><details><summary>展开代码</summary><p></p> <div class="language- extra-class"><pre class="language-text"><code>// authority.js
+
+const state = {
+    functionModules: null, // 功能模块权限id值数组，null为初始化情况，如果为[]代表该用户没有任何权限
+};
+
+const getters = {
+    functionModules: state =&gt; state.functionModules
+};
+
+const actions = {
+    /**
+     * 设置用户所拥有的的功能模块访问权限
+     */
+    setFunctionModules ({ commit, state }, value) {
+        // ... 这里省略了实现代码，因为此节重点不在这，后面再详说
+    }
+};
+
+const mutations = {
+    // 设置用户所拥有的的功能模块访问权限
+    [types.SET_FUNCTION_MODULES] (state, value) {
+        state.functionModules = value;
+    }
+};
+</code></pre></div></details> <p>下面是在beforeEach的处理逻辑
+</p><details><summary>展开代码</summary><p></p> <div class="language- extra-class"><pre class="language-text"><code>router.beforeEach((to, from, next) =&gt; {
+    // 判断是否有匹配路由
+    // 由于刷新了页面，路由重新初始化，只有静态路由被注册了，
+    // 所以进入这个动态路由页面时，是找不到路由匹配项的
+    if (to.matched.length === 0) {
+        // 获取存储的用来获取权限信息的信息
+        const userId = sessionStorage.getItem('userId');
+        // 如果是刷新了导致存储的权限路由配置信息没了，则要重新请求获取权限，判断刷新页是否拥有权限
+        // 这里的store.state.authority.functionModules是vuex中存在权限信息的state，是个数组
+        // 刷新页面会变回初始值，例子中是null
+        // 这个条件判断的目的是区分 1.用户胡乱输入根本不会存在的路由 2. 在某个动态路由上刷新了页面
+        // functionModules为null，且保存了userId就代表是第二种情况，
+        // 因为如果userId存在了代表登录了，就自然functionModules会有值，就算没权限也会是个[]
+        if (store.state.authority.functionModules === null &amp;&amp; userId) {
+            // 重新获取权限，以下为例子
+            http.get('/rights').then(res =&gt; {
+                // vuex中用于保存权限信息的action
+                store.dispatch('setFunctionModules', res);
+                router.replace(to);
+            });
+            return;
+        }
+        // 跳转到首页 添加query，避免手动跳转丢失参数，例如token
+        next({
+            path: '/',
+            query: to.query
+        });
+        return;
+    }
+    // ... 其余的一些有匹配路由的操作
+});
+</code></pre></div></details> <p><strong>针对问题三</strong>
+登出系统，即用户退出，需要清除已注册的动态路由。由于问题二的解决，也需要清除在vuex中的存储信息。</p> <p>这个问题其实没啥难度的，清空动态路由，用上述的resetRouter即可，清空vuex的信息就置为初始值就。</p> <p>我为啥这里一提，就是为了提示你还有这么一个流程，别忘记了，一整套完整的方案不能漏了这个。</p> <p><strong>addRoutes的缺陷</strong>
+上述基本已经描述完一整套实现动态路由的解决方案。但是有些小细节，可以注意一下，提高方案的全面性。</p> <p>关于addRoutes的详细解释，官方文档也是简单一笔带过，实际动态注入路由是怎么一回事，你会不会觉得注入后，我们写配置里的routes选项值，就是添加了我们追加的内容？很遗憾，并不是这样的。</p> <p>我们在控制台上打印路由实例router，可以看到其下有个options属性，里面有个routes属性。这个就是我们创建路由实例时的routes选项内容。我们以为通过addRoutes动态注册路由后，新注册的内容也会出现在这个属性里，但结果却是没有。</p> <p>$router.options.routes的内容只会是在创建实例时生成，后面追加的不会出现在这里。这意味着，在这个版本下的vue-router你没法通过路由实例对象来获知当前已注册的所有路由。假设你的系统有需要利用当然已注册的所有路由来做一些处理的话，你此时就没有这个数据了。因此，我们要自己做一个备份，记录当前已注册的路由，以防不时之需。</p> <p>我们在刚才的vuex文件中存储这个已注册路由信息，并补充具体的setFunctionModules逻辑</p> <details><summary>展开代码</summary> <div class="language- extra-class"><pre class="language-text"><code>// authority.js
+
+import staticRoutes from '@/router/staticRoutes.js';
+
+// 由于vuex的检查机制，不允许存在在mutation外部能改变state值的可能性（特别是赋值类型是数组或对象时），所以要深拷贝一下
+const _staticRoutes = JSON.parse(JSON.stringify(staticRoutes));
+
+const state = {
+    functionModules: null,
+    // 当前已注册的路由，因为通过addRoutes追加的路由不会更新到router对象上，需要自己做记录，以免不时之需
+    // _staticRoutes为系统的静止路由
+    registeredRoutes: _staticRoutes
+};
+
+const getters = {
+    functionModules: state =&gt; state.functionModules,
+    registeredRoutes: state =&gt; state.registeredRoutes
+};
+
+const actions = {
+    /**
+     * 设置用户所拥有的的功能模块访问权限
+     */
+    setFunctionModules ({ commit, state }, value) {
+        // 如果和旧值一样，那么就不需重新注册路由
+        // 这里举例的系统的权限信息是由一个个权限id组成的数组，所以用以下逻辑判断是否重复，具体项目具体实现
+        if (state.functionModules) {
+            const _functionModules = state.functionModules.concat();
+            _functionModules.sort(Vue.common.numCompare);
+            value.sort(Vue.common.numCompare);
+            if (_functionModules.toString() === value.toString()) {
+                return;
+            }
+        }
+        // 如果没有任何权限
+        if (value.length === 0) {
+            resetRouter(); // 重置路由映射
+            return;
+        }
+        // 根据权限信息生成动态路由配置
+        // createRoutes函数不展开说明，具体项目具体实现
+        const dynamicRoutes = createRoutes();
+        resetRouter(); // 重置路由映射
+        router.addRoutes(dynamicRoutes); // 追加权限路由
+         // 由于vuex的检查机制，不允许存在在mutation外部能改变state值的可能性（特别是赋值类型是数组或对象时），所以要深拷贝一下
+        const _dynamicRoutes = JSON.parse(JSON.stringify(dynamicRoutes));
+        // 记录当前已注册的路由配置
+        commit(types.SET_REGISTERED_ROUTES, [..._staticRoutes, ..._dynamicRoutes]);
+        // 保存权限信息
+        commit(types.SET_FUNCTION_MODULES, value);
+    }
+};
+
+const mutations = {
+    // 生成当前已注册的路由副本
+    [types.SET_REGISTERED_ROUTES] (state, value) {
+        state.registeredRoutes = value;
+    },
+    // 设置用户所拥有的的功能模块访问权限
+    [types.SET_FUNCTION_MODULES] (state, value) {
+        state.functionModules = value;
+    }
+};
+
+export default {
+    state,
+    getters,
+    actions,
+    mutations
+};
+</code></pre></div></details> <p>对了，如果在VUEX中存储了当前注册路由信息的话，在问题三中，退出登录，也要清除这个信息，把它置为默认情况，即只有静态路由的情况。</p> <div class="language- extra-class"><pre class="language-text"><code>// 重置已注册的路由副本
+[types.RESET_REGISTERED_ROUTES] (state) {
+</code></pre></div><p><strong>还有一点可能需要知道：</strong></p> <p>如果通过addRoutes加入的新路由有在静态路由中的某个路由children中，那么$router.options.routes会更新上去。</p> <p>小结
+以上即为一个完整的动态加载路由的方案，这个方案中要注意的东西，要处理好的细节，都已一一说明了。</p> <p>总结
+三个方案都已经说明了，优缺点大家也能知道。没有说哪个方案更好，甚至最好的方案，选择的标准就是：能满足你项目需求的，在你接受缺陷范围内的最简单的方案 ，这就是对你来说最好的方案。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/longweixia/xcx/Function/text2.html" class="prev">
+        手写函数(复杂)
+      </a></span> <span class="next"><a href="/longweixia/note/guide.html">
+        使用指南
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/longweixia/assets/js/app.5d9c4941.js" defer></script><script src="/longweixia/assets/js/2.19b4ab8a.js" defer></script><script src="/longweixia/assets/js/48.905e25b7.js" defer></script>
+  </body>
+</html>
