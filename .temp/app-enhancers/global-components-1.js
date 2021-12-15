@@ -1,8 +1,8 @@
 import Vue from 'vue'
 
-Vue.component("CodeBlock", () => import("C:\\Users\\longwei\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\theme-default\\global-components\\CodeBlock"))
-Vue.component("Badge", () => import("C:\\Users\\longwei\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\theme-default\\global-components\\Badge"))
-Vue.component("CodeGroup", () => import("C:\\Users\\longwei\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\theme-default\\global-components\\CodeGroup"))
+Vue.component("Badge", () => import("D:\\blog\\longweixia\\node_modules\\_@vuepress_theme-default@1.8.2@@vuepress\\theme-default\\global-components\\Badge"))
+Vue.component("CodeBlock", () => import("D:\\blog\\longweixia\\node_modules\\_@vuepress_theme-default@1.8.2@@vuepress\\theme-default\\global-components\\CodeBlock"))
+Vue.component("CodeGroup", () => import("D:\\blog\\longweixia\\node_modules\\_@vuepress_theme-default@1.8.2@@vuepress\\theme-default\\global-components\\CodeGroup"))
 
 
 export default {}

@@ -36,14 +36,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "ES61",
-      "frontmatter": {},
-      "regularPath": "/browser/Console/1.html",
-      "relativePath": "browser/Console/1.md",
-      "key": "v-0133d579",
-      "path": "/browser/Console/1.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -60,7 +52,7 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-e5ab7270",
+      "key": "v-04c696f8",
       "path": "/"
     },
     {
@@ -68,7 +60,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/browser/Console/2.html",
       "relativePath": "browser/Console/2.md",
-      "key": "v-3c39bed9",
+      "key": "v-e94796ae",
       "path": "/browser/Console/2.html"
     },
     {
@@ -76,15 +68,23 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/browser/Http/1.html",
       "relativePath": "browser/Http/1.md",
-      "key": "v-74033106",
+      "key": "v-333d0d66",
       "path": "/browser/Http/1.html"
+    },
+    {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/browser/Console/1.html",
+      "relativePath": "browser/Console/1.md",
+      "key": "v-50564b49",
+      "path": "/browser/Console/1.html"
     },
     {
       "title": "jsbase 1",
       "frontmatter": {},
       "regularPath": "/browser/Http/2.html",
       "relativePath": "browser/Http/2.md",
-      "key": "v-7896620a",
+      "key": "v-37d03e6a",
       "path": "/browser/Http/2.html"
     },
     {
@@ -92,7 +92,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/browser/Interview/1.html",
       "relativePath": "browser/Interview/1.md",
-      "key": "v-0d209b79",
+      "key": "v-7773a949",
       "path": "/browser/Interview/1.html"
     },
     {
@@ -100,7 +100,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/browser/Interview/2.html",
       "relativePath": "browser/Interview/2.md",
-      "key": "v-38255899",
+      "key": "v-bb0f332e",
       "path": "/browser/Interview/2.html"
     },
     {
@@ -108,7 +108,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/browser/",
       "relativePath": "browser/README.md",
-      "key": "v-41963e03",
+      "key": "v-366c2e33",
       "path": "/browser/"
     },
     {
@@ -116,30 +116,15 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/browser/SourceCode/1.html",
       "relativePath": "browser/SourceCode/1.md",
-      "key": "v-36540fbd",
+      "key": "v-581ae98d",
       "path": "/browser/SourceCode/1.html"
-    },
-    {
-      "title": "思维导图 业务",
-      "frontmatter": {},
-      "regularPath": "/business/",
-      "relativePath": "business/README.md",
-      "key": "v-366259ab",
-      "path": "/business/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "4",
-          "slug": "_4-2"
-        }
-      ]
     },
     {
       "title": "一.不使用插件",
       "frontmatter": {},
       "regularPath": "/business/business/1.html",
       "relativePath": "business/business/1.md",
-      "key": "v-66231b5a",
+      "key": "v-37418023",
       "path": "/business/business/1.html",
       "headers": [
         {
@@ -180,11 +165,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "思维导图 业务",
+      "frontmatter": {},
+      "regularPath": "/business/",
+      "relativePath": "business/README.md",
+      "key": "v-4d7cfddb",
+      "path": "/business/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "4",
+          "slug": "_4-2"
+        }
+      ]
+    },
+    {
       "title": "以下内容为HTML 基础篇（1）",
       "frontmatter": {},
       "regularPath": "/business/business/2.html",
       "relativePath": "business/business/2.md",
-      "key": "v-1019a11a",
+      "key": "v-62463d43",
       "path": "/business/business/2.html",
       "headers": [
         {
@@ -244,7 +244,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/css/Css/1%20copy.html",
       "relativePath": "css/Css/1 copy.md",
-      "key": "v-6bdd528a",
+      "key": "v-00799f4c",
       "path": "/css/Css/1%20copy.html",
       "headers": [
         {
@@ -470,18 +470,11 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/css/Css/1.html",
-      "relativePath": "css/Css/1.md",
-      "key": "v-40b0a999",
-      "path": "/css/Css/1.html"
-    },
-    {
       "title": "以下内容为 css 基础篇（1）",
       "frontmatter": {},
       "regularPath": "/css/Css/2.html",
       "relativePath": "css/Css/2.md",
-      "key": "v-100fe3f9",
+      "key": "v-94100c6e",
       "path": "/css/Css/2.html",
       "headers": [
         {
@@ -717,11 +710,19 @@ export const siteData = {
       ]
     },
     {
+      "title": "text1.md",
+      "frontmatter": {},
+      "regularPath": "/css/Interview/1.html",
+      "relativePath": "css/Interview/1.md",
+      "key": "v-210b8f29",
+      "path": "/css/Interview/1.html"
+    },
+    {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/css/Interview/2.html",
       "relativePath": "css/Interview/2.md",
-      "key": "v-130ad6f9",
+      "key": "v-b21e966e",
       "path": "/css/Interview/2.html"
     },
     {
@@ -729,7 +730,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/css/",
       "relativePath": "css/README.md",
-      "key": "v-2253204d",
+      "key": "v-6d74407d",
       "path": "/css/",
       "headers": [
         {
@@ -740,11 +741,25 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/css/Css/1.html",
+      "relativePath": "css/Css/1.md",
+      "key": "v-32ce812e",
+      "path": "/css/Css/1.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/html/Html/1.html",
+      "relativePath": "html/Html/1.md",
+      "key": "v-12170cba",
+      "path": "/html/Html/1.html"
+    },
+    {
       "title": "以下内容为HTML 基础篇（1）",
       "frontmatter": {},
       "regularPath": "/html/Html/2.html",
       "relativePath": "html/Html/2.md",
-      "key": "v-5ff999f3",
+      "key": "v-054247c3",
       "path": "/html/Html/2.html",
       "headers": [
         {
@@ -814,15 +829,23 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/html/Interview/text1.html",
       "relativePath": "html/Interview/text1.md",
-      "key": "v-a83da016",
+      "key": "v-64afec76",
       "path": "/html/Interview/text1.html"
+    },
+    {
+      "title": "text2.md",
+      "frontmatter": {},
+      "regularPath": "/html/Interview/text2.html",
+      "relativePath": "html/Interview/text2.md",
+      "key": "v-5fece3fa",
+      "path": "/html/Interview/text2.html"
     },
     {
       "title": "思维导图",
       "frontmatter": {},
       "regularPath": "/html/",
       "relativePath": "html/README.md",
-      "key": "v-5c8131ea",
+      "key": "v-4dcd898a",
       "path": "/html/",
       "headers": [
         {
@@ -837,23 +860,15 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/js/ES6/ES61.html",
       "relativePath": "js/ES6/ES61.md",
-      "key": "v-3365566d",
+      "key": "v-4ea3f786",
       "path": "/js/ES6/ES61.html"
-    },
-    {
-      "title": "text2.md",
-      "frontmatter": {},
-      "regularPath": "/html/Interview/text2.html",
-      "relativePath": "html/Interview/text2.md",
-      "key": "v-a37a979a",
-      "path": "/html/Interview/text2.html"
     },
     {
       "title": "ES62",
       "frontmatter": {},
       "regularPath": "/js/ES6/ES62.html",
       "relativePath": "js/ES6/ES62.md",
-      "key": "v-41b3248d",
+      "key": "v-32085b46",
       "path": "/js/ES6/ES62.html"
     },
     {
@@ -861,7 +876,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/js/Function/text1.html",
       "relativePath": "js/Function/text1.md",
-      "key": "v-31bc805a",
+      "key": "v-364435a3",
       "path": "/js/Function/text1.html",
       "headers": [
         {
@@ -882,50 +897,19 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/html/Html/1.html",
-      "relativePath": "html/Html/1.md",
-      "key": "v-51abcbd3",
-      "path": "/html/Html/1.html"
-    },
-    {
       "title": "手写函数(复杂)",
       "frontmatter": {},
       "regularPath": "/js/Function/text2.html",
       "relativePath": "js/Function/text2.md",
-      "key": "v-2227a933",
+      "key": "v-714a1f03",
       "path": "/js/Function/text2.html"
-    },
-    {
-      "title": "text1.md",
-      "frontmatter": {},
-      "regularPath": "/css/Interview/1.html",
-      "relativePath": "css/Interview/1.md",
-      "key": "v-e5b49d4e",
-      "path": "/css/Interview/1.html"
-    },
-    {
-      "title": "jsbase 1",
-      "frontmatter": {},
-      "regularPath": "/js/JS/2.html",
-      "relativePath": "js/JS/2.md",
-      "key": "v-18839333",
-      "path": "/js/JS/2.html"
-    },
-    {
-      "title": "思维导图",
-      "frontmatter": {},
-      "regularPath": "/js/",
-      "relativePath": "js/README.md",
-      "key": "v-5d179fea",
-      "path": "/js/"
     },
     {
       "title": "1. 函数声明",
       "frontmatter": {},
       "regularPath": "/js/JS/1.html",
       "relativePath": "js/JS/1.md",
-      "key": "v-73b646da",
+      "key": "v-34a05a63",
       "path": "/js/JS/1.html",
       "headers": [
         {
@@ -971,142 +955,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "jsbase 1",
       "frontmatter": {},
-      "regularPath": "/js/ast.html",
-      "relativePath": "js/ast.md",
-      "key": "v-95aae018",
-      "path": "/js/ast.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是AST",
-          "slug": "_1-什么是ast"
-        },
-        {
-          "level": 2,
-          "title": "2. 原理",
-          "slug": "_2-原理"
-        },
-        {
-          "level": 2,
-          "title": "3. AST的用途",
-          "slug": "_3-ast的用途"
-        },
-        {
-          "level": 2,
-          "title": "4. AST使用3个流程",
-          "slug": "_4-ast使用3个流程"
-        },
-        {
-          "level": 2,
-          "title": "5. AST的结构",
-          "slug": "_5-ast的结构"
-        },
-        {
-          "level": 2,
-          "title": "6. AST编译过程",
-          "slug": "_6-ast编译过程"
-        },
-        {
-          "level": 2,
-          "title": "7. babel原理浅析",
-          "slug": "_7-babel原理浅析"
-        },
-        {
-          "level": 2,
-          "title": "8. vue中AST抽象语法树的运用;",
-          "slug": "_8-vue中ast抽象语法树的运用"
-        }
-      ]
+      "regularPath": "/js/JS/2.html",
+      "relativePath": "js/JS/2.md",
+      "key": "v-f201ddfa",
+      "path": "/js/JS/2.html"
     },
     {
-      "title": "1. 什么是正则",
+      "title": "思维导图",
       "frontmatter": {},
-      "regularPath": "/js/reg/text1.html",
-      "relativePath": "js/reg/text1.md",
-      "key": "v-13cfd25a",
-      "path": "/js/reg/text1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 什么是正则",
-          "slug": "_1-什么是正则"
-        },
-        {
-          "level": 3,
-          "title": "1-1. 正则对象RegExp",
-          "slug": "_1-1-正则对象regexp"
-        },
-        {
-          "level": 2,
-          "title": "2. 语法",
-          "slug": "_2-语法"
-        },
-        {
-          "level": 2,
-          "title": "3. 使用字符串方法",
-          "slug": "_3-使用字符串方法"
-        },
-        {
-          "level": 3,
-          "title": "3-1. search()",
-          "slug": "_3-1-search"
-        },
-        {
-          "level": 3,
-          "title": "3-2. replace()",
-          "slug": "_3-2-replace"
-        },
-        {
-          "level": 3,
-          "title": "3-3. match",
-          "slug": "_3-3-match"
-        },
-        {
-          "level": 2,
-          "title": "4. 正则表达式修饰符",
-          "slug": "_4-正则表达式修饰符"
-        },
-        {
-          "level": 2,
-          "title": "5. 正则表达式模式",
-          "slug": "_5-正则表达式模式"
-        },
-        {
-          "level": 2,
-          "title": "6. 元字符",
-          "slug": "_6-元字符"
-        },
-        {
-          "level": 2,
-          "title": "7. 量词",
-          "slug": "_7-量词"
-        },
-        {
-          "level": 2,
-          "title": "8. RegExp 对象方法",
-          "slug": "_8-regexp-对象方法"
-        },
-        {
-          "level": 2,
-          "title": "9. RegExp 对象属性",
-          "slug": "_9-regexp-对象属性"
-        }
-      ]
-    },
-    {
-      "title": "手写函数(复杂)",
-      "frontmatter": {},
-      "regularPath": "/js/reg/text2.html",
-      "relativePath": "js/reg/text2.md",
-      "key": "v-7e52aa11",
-      "path": "/js/reg/text2.html"
+      "regularPath": "/js/",
+      "relativePath": "js/README.md",
+      "key": "v-01bf9c3b",
+      "path": "/js/"
     },
     {
       "frontmatter": {},
       "regularPath": "/js/arry.html",
       "relativePath": "js/arry.md",
-      "key": "v-4b29ab40",
+      "key": "v-8cb5ade0",
       "path": "/js/arry.html",
       "headers": [
         {
@@ -1217,35 +1085,175 @@ export const siteData = {
       ]
     },
     {
+      "title": "1. 什么是正则",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text1.html",
+      "relativePath": "js/reg/text1.md",
+      "key": "v-6bec90a3",
+      "path": "/js/reg/text1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是正则",
+          "slug": "_1-什么是正则"
+        },
+        {
+          "level": 3,
+          "title": "1-1. 正则对象RegExp",
+          "slug": "_1-1-正则对象regexp"
+        },
+        {
+          "level": 2,
+          "title": "2. 语法",
+          "slug": "_2-语法"
+        },
+        {
+          "level": 2,
+          "title": "3. 使用字符串方法",
+          "slug": "_3-使用字符串方法"
+        },
+        {
+          "level": 3,
+          "title": "3-1. search()",
+          "slug": "_3-1-search"
+        },
+        {
+          "level": 3,
+          "title": "3-2. replace()",
+          "slug": "_3-2-replace"
+        },
+        {
+          "level": 3,
+          "title": "3-3. match",
+          "slug": "_3-3-match"
+        },
+        {
+          "level": 2,
+          "title": "4. 正则表达式修饰符",
+          "slug": "_4-正则表达式修饰符"
+        },
+        {
+          "level": 2,
+          "title": "5. 正则表达式模式",
+          "slug": "_5-正则表达式模式"
+        },
+        {
+          "level": 2,
+          "title": "6. 元字符",
+          "slug": "_6-元字符"
+        },
+        {
+          "level": 2,
+          "title": "7. 量词",
+          "slug": "_7-量词"
+        },
+        {
+          "level": 2,
+          "title": "8. RegExp 对象方法",
+          "slug": "_8-regexp-对象方法"
+        },
+        {
+          "level": 2,
+          "title": "9. RegExp 对象属性",
+          "slug": "_9-regexp-对象属性"
+        }
+      ]
+    },
+    {
+      "title": "手写函数(复杂)",
+      "frontmatter": {},
+      "regularPath": "/js/reg/text2.html",
+      "relativePath": "js/reg/text2.md",
+      "key": "v-17b1b83e",
+      "path": "/js/reg/text2.html"
+    },
+    {
       "title": "text1.md",
       "frontmatter": {},
       "regularPath": "/node/Interview/1.html",
       "relativePath": "node/Interview/1.md",
-      "key": "v-236983a6",
+      "key": "v-2030e7fd",
       "path": "/node/Interview/1.html"
     },
     {
-      "title": "思维导图",
       "frontmatter": {},
-      "regularPath": "/node/",
-      "relativePath": "node/README.md",
-      "key": "v-1dc2a3eb",
-      "path": "/node/"
+      "regularPath": "/js/ast.html",
+      "relativePath": "js/ast.md",
+      "key": "v-cde97c78",
+      "path": "/js/ast.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 什么是AST",
+          "slug": "_1-什么是ast"
+        },
+        {
+          "level": 2,
+          "title": "2. 原理",
+          "slug": "_2-原理"
+        },
+        {
+          "level": 2,
+          "title": "3. AST的用途",
+          "slug": "_3-ast的用途"
+        },
+        {
+          "level": 2,
+          "title": "4. AST使用3个流程",
+          "slug": "_4-ast使用3个流程"
+        },
+        {
+          "level": 2,
+          "title": "5. AST的结构",
+          "slug": "_5-ast的结构"
+        },
+        {
+          "level": 2,
+          "title": "6. AST编译过程",
+          "slug": "_6-ast编译过程"
+        },
+        {
+          "level": 2,
+          "title": "7. babel原理浅析",
+          "slug": "_7-babel原理浅析"
+        },
+        {
+          "level": 2,
+          "title": "8. vue中AST抽象语法树的运用;",
+          "slug": "_8-vue中ast抽象语法树的运用"
+        }
+      ]
     },
     {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/node/Interview/2.html",
       "relativePath": "node/Interview/2.md",
-      "key": "v-1c4d2c2a",
+      "key": "v-23bf13bb",
       "path": "/node/Interview/2.html"
+    },
+    {
+      "title": "思维导图",
+      "frontmatter": {},
+      "regularPath": "/node/",
+      "relativePath": "node/README.md",
+      "key": "v-251c781b",
+      "path": "/node/"
+    },
+    {
+      "title": "jsbase 2",
+      "frontmatter": {},
+      "regularPath": "/node/base/1.html",
+      "relativePath": "node/base/1.md",
+      "key": "v-5aa87583",
+      "path": "/node/base/1.html"
     },
     {
       "title": "jsbase 1",
       "frontmatter": {},
       "regularPath": "/node/base/2.html",
       "relativePath": "node/base/2.md",
-      "key": "v-78a4d45a",
+      "key": "v-68f643a3",
       "path": "/node/base/2.html"
     },
     {
@@ -1253,23 +1261,40 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/",
       "relativePath": "note/README.md",
-      "key": "v-66e101eb",
+      "key": "v-6e3ad61b",
       "path": "/note/"
     },
     {
-      "title": "jsbase 2",
+      "title": "使用指南",
       "frontmatter": {},
-      "regularPath": "/node/base/1.html",
-      "relativePath": "node/base/1.md",
-      "key": "v-9540709a",
-      "path": "/node/base/1.html"
+      "regularPath": "/note/guide.html",
+      "relativePath": "note/guide.md",
+      "key": "v-4fd8c83e",
+      "path": "/note/guide.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 点击展开或缩起的内容",
+          "slug": "_1-点击展开或缩起的内容"
+        },
+        {
+          "level": 2,
+          "title": "2. 怎么展示本地图片",
+          "slug": "_2-怎么展示本地图片"
+        },
+        {
+          "level": 2,
+          "title": "3. 怎么实现点击放大本地图片",
+          "slug": "_3-怎么实现点击放大本地图片"
+        }
+      ]
     },
     {
       "title": "1. 什么是后台权限",
       "frontmatter": {},
       "regularPath": "/note/pit.html",
       "relativePath": "note/pit.md",
-      "key": "v-a363b5a0",
+      "key": "v-6be16f00",
       "path": "/note/pit.html",
       "headers": [
         {
@@ -1310,11 +1335,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "思维导图 业务",
+      "frontmatter": {},
+      "regularPath": "/tools/",
+      "relativePath": "tools/README.md",
+      "key": "v-2aeba2e6",
+      "path": "/tools/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "4",
+          "slug": "_4-2"
+        }
+      ]
+    },
+    {
       "title": "一. 更新",
       "frontmatter": {},
       "regularPath": "/tools/git/1.html",
       "relativePath": "tools/git/1.md",
-      "key": "v-2e8b8e39",
+      "key": "v-585787ee",
       "path": "/tools/git/1.html",
       "headers": [
         {
@@ -1355,50 +1395,10 @@ export const siteData = {
       ]
     },
     {
-      "title": "思维导图 业务",
-      "frontmatter": {},
-      "regularPath": "/tools/",
-      "relativePath": "tools/README.md",
-      "key": "v-5254a65d",
-      "path": "/tools/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "4",
-          "slug": "_4-2"
-        }
-      ]
-    },
-    {
-      "title": "使用指南",
-      "frontmatter": {},
-      "regularPath": "/note/guide.html",
-      "relativePath": "note/guide.md",
-      "key": "v-f8c23324",
-      "path": "/note/guide.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 点击展开或缩起的内容",
-          "slug": "_1-点击展开或缩起的内容"
-        },
-        {
-          "level": 2,
-          "title": "2. 怎么展示本地图片",
-          "slug": "_2-怎么展示本地图片"
-        },
-        {
-          "level": 2,
-          "title": "3. 怎么实现点击放大本地图片",
-          "slug": "_3-怎么实现点击放大本地图片"
-        }
-      ]
-    },
-    {
       "frontmatter": {},
       "regularPath": "/tools/vscode/1.html",
       "relativePath": "tools/vscode/1.md",
-      "key": "v-e5766942",
+      "key": "v-a4b045a2",
       "path": "/tools/vscode/1.html",
       "headers": [
         {
@@ -1423,7 +1423,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/tools/vscode/2.html",
       "relativePath": "tools/vscode/2.md",
-      "key": "v-ea099a46",
+      "key": "v-a94376a6",
       "path": "/tools/vscode/2.html",
       "headers": [
         {
@@ -1480,16 +1480,9 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/tools/webpack/4.html",
-      "relativePath": "tools/webpack/4.md",
-      "key": "v-003b5579",
-      "path": "/tools/webpack/4.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/tools/webpack/1.html",
       "relativePath": "tools/webpack/1.md",
-      "key": "v-6e8be499",
+      "key": "v-0271c269",
       "path": "/tools/webpack/1.html",
       "headers": [
         {
@@ -1571,17 +1564,29 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/tools/webpack/5.html",
-      "relativePath": "tools/webpack/5.md",
-      "key": "v-f3bf09ce",
-      "path": "/tools/webpack/5.html"
+      "regularPath": "/tools/webpack/2.html",
+      "relativePath": "tools/webpack/2.md",
+      "key": "v-ef522fee",
+      "path": "/tools/webpack/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 概念",
+          "slug": "_1-概念"
+        },
+        {
+          "level": 2,
+          "title": "2. 打包图片",
+          "slug": "_2-打包图片"
+        }
+      ]
     },
     {
       "title": "1. 简单介绍",
       "frontmatter": {},
       "regularPath": "/tools/webpack/3.html",
       "relativePath": "tools/webpack/3.md",
-      "key": "v-7a562fd9",
+      "key": "v-0e3c0da9",
       "path": "/tools/webpack/3.html",
       "headers": [
         {
@@ -1598,9 +1603,16 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/tools/webpack/4.html",
+      "relativePath": "tools/webpack/4.md",
+      "key": "v-d7bd996e",
+      "path": "/tools/webpack/4.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/tools/webpack/6.html",
       "relativePath": "tools/webpack/6.md",
-      "key": "v-0c05a0b9",
+      "key": "v-c02902ee",
       "path": "/tools/webpack/6.html"
     },
     {
@@ -1608,55 +1620,70 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/ts/Interview/1.html",
       "relativePath": "ts/Interview/1.md",
-      "key": "v-cc18779a",
+      "key": "v-8b5253fa",
       "path": "/ts/Interview/1.html"
     },
     {
-      "title": "思维导图",
       "frontmatter": {},
-      "regularPath": "/ts/",
-      "relativePath": "ts/README.md",
-      "key": "v-bdb1ff6a",
-      "path": "/ts/"
+      "regularPath": "/tools/webpack/5.html",
+      "relativePath": "tools/webpack/5.md",
+      "key": "v-1a0658e9",
+      "path": "/tools/webpack/5.html"
     },
     {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/ts/Interview/2.html",
       "relativePath": "ts/Interview/2.md",
-      "key": "v-d0aba89e",
+      "key": "v-8fe584fe",
       "path": "/ts/Interview/2.html"
     },
     {
-      "title": "jsbase 1",
+      "title": "思维导图",
       "frontmatter": {},
-      "regularPath": "/ts/base/2.html",
-      "relativePath": "ts/base/2.md",
-      "key": "v-77fbd7b3",
-      "path": "/ts/base/2.html"
-    },
-    {
-      "title": "ES61",
-      "frontmatter": {},
-      "regularPath": "/vue/ES6/1.html",
-      "relativePath": "vue/ES6/1.md",
-      "key": "v-3bc1fece",
-      "path": "/vue/ES6/1.html"
+      "regularPath": "/ts/",
+      "relativePath": "ts/README.md",
+      "key": "v-5d1b270a",
+      "path": "/ts/"
     },
     {
       "title": "jsbase 2",
       "frontmatter": {},
       "regularPath": "/ts/base/1.html",
       "relativePath": "ts/base/1.md",
-      "key": "v-aec6c55a",
+      "key": "v-4e84b323",
       "path": "/ts/base/1.html"
+    },
+    {
+      "title": "ES61",
+      "frontmatter": {},
+      "regularPath": "/vue/ES6/1.html",
+      "relativePath": "vue/ES6/1.md",
+      "key": "v-eff1d32e",
+      "path": "/vue/ES6/1.html"
+    },
+    {
+      "title": "jsbase 1",
+      "frontmatter": {},
+      "regularPath": "/ts/base/2.html",
+      "relativePath": "ts/base/2.md",
+      "key": "v-1de3ed83",
+      "path": "/ts/base/2.html"
+    },
+    {
+      "title": "ES62",
+      "frontmatter": {},
+      "regularPath": "/vue/ES6/2.html",
+      "relativePath": "vue/ES6/2.md",
+      "key": "v-576650c9",
+      "path": "/vue/ES6/2.html"
     },
     {
       "title": "1. vue 的模板渲染",
       "frontmatter": {},
       "regularPath": "/vue/Interview/1.html",
       "relativePath": "vue/Interview/1.md",
-      "key": "v-340d0239",
+      "key": "v-701a3fee",
       "path": "/vue/Interview/1.html",
       "headers": [
         {
@@ -1667,19 +1694,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "ES62",
-      "frontmatter": {},
-      "regularPath": "/vue/ES6/2.html",
-      "relativePath": "vue/ES6/2.md",
-      "key": "v-9d038a0e",
-      "path": "/vue/ES6/2.html"
-    },
-    {
       "title": "text2.md",
       "frontmatter": {},
       "regularPath": "/vue/Interview/2.html",
       "relativePath": "vue/Interview/2.md",
-      "key": "v-8c1bb04e",
+      "key": "v-4dd805a9",
       "path": "/vue/Interview/2.html"
     },
     {
@@ -1687,7 +1706,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vue/",
       "relativePath": "vue/README.md",
-      "key": "v-04892b47",
+      "key": "v-4faa4b77",
       "path": "/vue/"
     },
     {
@@ -1695,7 +1714,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vue/SourceCode/1.html",
       "relativePath": "vue/SourceCode/1.md",
-      "key": "v-181434f9",
+      "key": "v-49f9dec9",
       "path": "/vue/SourceCode/1.html"
     },
     {
@@ -1703,7 +1722,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vue/vue/1.html",
       "relativePath": "vue/vue/1.md",
-      "key": "v-6e1c584e",
+      "key": "v-6ed9e9a9",
       "path": "/vue/vue/1.html",
       "headers": [
         {
@@ -1723,7 +1742,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vue/vue/2.html",
       "relativePath": "vue/vue/2.md",
-      "key": "v-cf5de38e",
+      "key": "v-3e392409",
       "path": "/vue/vue/2.html"
     },
     {
@@ -1731,7 +1750,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vue/vue3/1.html",
       "relativePath": "vue/vue3/1.md",
-      "key": "v-74d4a82f",
+      "key": "v-410e89ff",
       "path": "/vue/vue3/1.html",
       "headers": [
         {
@@ -1850,7 +1869,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vue/vuex/1copy.html",
       "relativePath": "vue/vuex/1copy.md",
-      "key": "v-034a243b",
+      "key": "v-23ad360b",
       "path": "/vue/vuex/1copy.html",
       "headers": [
         {
@@ -1970,7 +1989,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vue/vuex/2.html",
       "relativePath": "vue/vuex/2.md",
-      "key": "v-c03087ba",
+      "key": "v-6c219df3",
       "path": "/vue/vuex/2.html",
       "headers": [
         {
@@ -2060,22 +2079,47 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vuePress/",
       "relativePath": "vuePress/README.md",
-      "key": "v-7a73bccb",
+      "key": "v-dce33e0a",
       "path": "/vuePress/"
     },
     {
       "frontmatter": {},
       "regularPath": "/vue/vuex/1.html",
       "relativePath": "vue/vuex/1.md",
-      "key": "v-92dde5b6",
+      "key": "v-fa6a2216",
       "path": "/vue/vuex/1.html"
+    },
+    {
+      "title": "使用指南",
+      "frontmatter": {},
+      "regularPath": "/vuePress/guide.html",
+      "relativePath": "vuePress/guide.md",
+      "key": "v-2ec91468",
+      "path": "/vuePress/guide.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 点击展开或缩起的内容",
+          "slug": "_1-点击展开或缩起的内容"
+        },
+        {
+          "level": 2,
+          "title": "2. 怎么展示本地图片",
+          "slug": "_2-怎么展示本地图片"
+        },
+        {
+          "level": 2,
+          "title": "3. 怎么实现点击放大本地图片",
+          "slug": "_3-怎么实现点击放大本地图片"
+        }
+      ]
     },
     {
       "title": "侧边栏需要参考以下配置",
       "frontmatter": {},
       "regularPath": "/vuePress/pit.html",
       "relativePath": "vuePress/pit.md",
-      "key": "v-396fa49a",
+      "key": "v-a177c32c",
       "path": "/vuePress/pit.html",
       "headers": [
         {
@@ -2099,7 +2143,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/xcx/ES6/ES61.html",
       "relativePath": "xcx/ES6/ES61.md",
-      "key": "v-43897b81",
+      "key": "v-8d44155e",
       "path": "/xcx/ES6/ES61.html",
       "headers": [
         {
@@ -2135,36 +2179,19 @@ export const siteData = {
       ]
     },
     {
-      "title": "使用指南",
+      "title": "手写函数(简单)",
       "frontmatter": {},
-      "regularPath": "/vuePress/guide.html",
-      "relativePath": "vuePress/guide.md",
-      "key": "v-0e660298",
-      "path": "/vuePress/guide.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 点击展开或缩起的内容",
-          "slug": "_1-点击展开或缩起的内容"
-        },
-        {
-          "level": 2,
-          "title": "2. 怎么展示本地图片",
-          "slug": "_2-怎么展示本地图片"
-        },
-        {
-          "level": 2,
-          "title": "3. 怎么实现点击放大本地图片",
-          "slug": "_3-怎么实现点击放大本地图片"
-        }
-      ]
+      "regularPath": "/xcx/Function/text1.html",
+      "relativePath": "xcx/Function/text1.md",
+      "key": "v-17843cde",
+      "path": "/xcx/Function/text1.html"
     },
     {
       "title": "手写函数(复杂)",
       "frontmatter": {},
       "regularPath": "/xcx/Function/text2.html",
       "relativePath": "xcx/Function/text2.md",
-      "key": "v-53310082",
+      "key": "v-32787ce2",
       "path": "/xcx/Function/text2.html"
     },
     {
@@ -2172,23 +2199,15 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/xcx/ES6/ES62.html",
       "relativePath": "xcx/ES6/ES62.md",
-      "key": "v-6877e282",
+      "key": "v-4198888f",
       "path": "/xcx/ES6/ES62.html"
-    },
-    {
-      "title": "手写函数(简单)",
-      "frontmatter": {},
-      "regularPath": "/xcx/Function/text1.html",
-      "relativePath": "xcx/Function/text1.md",
-      "key": "v-383cc07e",
-      "path": "/xcx/Function/text1.html"
     },
     {
       "title": "1. 时间兼容",
       "frontmatter": {},
       "regularPath": "/xcx/JS/1.html",
       "relativePath": "xcx/JS/1.md",
-      "key": "v-b946ebf6",
+      "key": "v-60efd3d5",
       "path": "/xcx/JS/1.html",
       "headers": [
         {
@@ -2208,7 +2227,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/xcx/JS/2.html",
       "relativePath": "xcx/JS/2.md",
-      "key": "v-69a344c3",
+      "key": "v-27368e93",
       "path": "/xcx/JS/2.html"
     },
     {
@@ -2216,27 +2235,8 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/xcx/",
       "relativePath": "xcx/README.md",
-      "key": "v-c0e11b0e",
+      "key": "v-2a9edaae",
       "path": "/xcx/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/tools/webpack/2.html",
-      "relativePath": "tools/webpack/2.md",
-      "key": "v-171deb8e",
-      "path": "/tools/webpack/2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 概念",
-          "slug": "_1-概念"
-        },
-        {
-          "level": 2,
-          "title": "2. 打包图片",
-          "slug": "_2-打包图片"
-        }
-      ]
     }
   ],
   "themeConfig": {
